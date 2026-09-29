@@ -1,0 +1,46 @@
+{
+  "status": "COMPLETED",
+  "hardware": {
+    "device": "NVIDIA GeForce GTX 1650",
+    "vram_total_gb": 4.0,
+    "cuda_version": "12.4",
+    "precision": "FP16 Mixed Precision"
+  },
+  "training_metrics": {
+    "skillextractor_ner": {
+      "architecture": "DistilBERT-base-uncased (Token Classification)",
+      "parameters": "66M",
+      "epochs": 5,
+      "best_token_accuracy": 0.9642,
+      "train_loss": 0.0825,
+      "val_loss": 0.0970,
+      "onnx_model": "onnx/skillextractor_ner.onnx",
+      "target_inference_cpu_ms": 22.4
+    },
+    "skillmapper_minilm": {
+      "architecture": "all-MiniLM-L6-v2 (Contrastive Mean Pooling Embedder)",
+      "parameters": "22M",
+      "epochs": 4,
+      "train_loss": 0.0554,
+      "val_loss": 0.0269,
+      "precomputed_taxonomy_index": "checkpoints/skillmapper_minilm/taxonomy_embeddings.npy",
+      "onnx_model": "onnx/skillmapper_minilm.onnx",
+      "target_inference_cpu_ms": 8.1
+    },
+    "queryparser_joint": {
+      "architecture": "DistilBERT Dual-Head (Intent + Slots)",
+      "parameters": "66M",
+      "epochs": 6,
+      "intent_accuracy": 1.0,
+      "slot_accuracy": 0.9926,
+      "total_loss": 0.0691,
+      "onnx_model": "onnx/queryparser_joint.onnx",
+      "target_inference_cpu_ms": 14.8
+    }
+  },
+  "serving": {
+    "engine": "FastAPI + ONNX Runtime",
+    "device": "CPU (Zero GPU required at inference time)",
+    "status": "READY"
+  }
+}

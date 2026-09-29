@@ -1,0 +1,452 @@
+[
+  {
+    "id": "py-001",
+    "name": "Python",
+    "domain": "Programming Languages",
+    "category": "Languages",
+    "aliases": ["python3", "python 3", "py", "cpython"],
+    "description": "High-level general-purpose programming language widely used in AI, ML, backend, and data science.",
+    "evidence_types": ["github_repo", "pull_request", "hackathon_project", "certificate"]
+  },
+  {
+    "id": "ts-002",
+    "name": "TypeScript",
+    "domain": "Programming Languages",
+    "category": "Languages",
+    "aliases": ["ts", "typescript", "typed javascript"],
+    "description": "Strongly typed superset of JavaScript that compiles to plain JavaScript.",
+    "evidence_types": ["github_repo", "pull_request", "code_review"]
+  },
+  {
+    "id": "js-003",
+    "name": "JavaScript",
+    "domain": "Programming Languages",
+    "category": "Languages",
+    "aliases": ["js", "es6", "ecmascript", "vanilla js"],
+    "description": "High-level interpreted scripting language powering modern web applications.",
+    "evidence_types": ["github_repo", "pull_request", "hackathon_project"]
+  },
+  {
+    "id": "cpp-004",
+    "name": "C++",
+    "domain": "Programming Languages",
+    "category": "Languages",
+    "aliases": ["cpp", "c plus plus", "c++20", "c++17"],
+    "description": "High-performance systems programming language with OOP and low-level memory control.",
+    "evidence_types": ["competitive_programming", "github_repo", "hackathon_project"]
+  },
+  {
+    "id": "c-005",
+    "name": "C",
+    "domain": "Programming Languages",
+    "category": "Languages",
+    "aliases": ["c lang", "c language", "ansi c"],
+    "description": "Foundational procedural systems programming language.",
+    "evidence_types": ["academic_coursework", "github_repo"]
+  },
+  {
+    "id": "java-006",
+    "name": "Java",
+    "domain": "Programming Languages",
+    "category": "Languages",
+    "aliases": ["java8", "java17", "java21", "core java"],
+    "description": "Class-based object-oriented language running on JVM used in enterprise and Android.",
+    "evidence_types": ["github_repo", "certificate", "competitive_programming"]
+  },
+  {
+    "id": "rust-007",
+    "name": "Rust",
+    "domain": "Programming Languages",
+    "category": "Languages",
+    "aliases": ["rust-lang", "rustlang"],
+    "description": "Memory-safe systems programming language without garbage collection.",
+    "evidence_types": ["github_repo", "pull_request", "hackathon_project"]
+  },
+  {
+    "id": "go-008",
+    "name": "Go",
+    "domain": "Programming Languages",
+    "category": "Languages",
+    "aliases": ["golang", "go language"],
+    "description": "Statically typed compiled language designed at Google for concurrent cloud services.",
+    "evidence_types": ["github_repo", "pull_request"]
+  },
+  {
+    "id": "sql-009",
+    "name": "SQL",
+    "domain": "Databases & Storage",
+    "category": "Query Languages",
+    "aliases": ["structured query language", "ansi sql", "plsql"],
+    "description": "Standard domain-specific language for querying and managing relational databases.",
+    "evidence_types": ["github_repo", "academic_coursework", "certificate"]
+  },
+  {
+    "id": "react-010",
+    "name": "React",
+    "domain": "Frontend Development",
+    "category": "Frameworks & Libraries",
+    "aliases": ["reactjs", "react.js", "react 18", "react 19"],
+    "description": "Component-based declarative UI library developed by Meta.",
+    "evidence_types": ["github_repo", "pull_request", "hackathon_project"]
+  },
+  {
+    "id": "nextjs-011",
+    "name": "Next.js",
+    "domain": "Frontend Development",
+    "category": "Frameworks & Libraries",
+    "aliases": ["next.js", "nextjs 14", "nextjs 15", "next app router"],
+    "description": "React framework enabling server-side rendering, static site generation, and full-stack API routes.",
+    "evidence_types": ["github_repo", "hackathon_project", "pull_request"]
+  },
+  {
+    "id": "vue-012",
+    "name": "Vue.js",
+    "domain": "Frontend Development",
+    "category": "Frameworks & Libraries",
+    "aliases": ["vue", "vuejs", "vue 3"],
+    "description": "Progressive JavaScript framework for building user interfaces.",
+    "evidence_types": ["github_repo", "hackathon_project"]
+  },
+  {
+    "id": "tailwind-013",
+    "name": "Tailwind CSS",
+    "domain": "Frontend Development",
+    "category": "Styling",
+    "aliases": ["tailwind", "tailwindcss"],
+    "description": "Utility-first CSS framework for rapid modern UI development.",
+    "evidence_types": ["github_repo", "hackathon_project"]
+  },
+  {
+    "id": "html5-014",
+    "name": "HTML5",
+    "domain": "Frontend Development",
+    "category": "Markup",
+    "aliases": ["html", "semantic html"],
+    "description": "Standard markup language for documents designed to be displayed in a web browser.",
+    "evidence_types": ["github_repo", "course_completion"]
+  },
+  {
+    "id": "css3-015",
+    "name": "CSS3",
+    "domain": "Frontend Development",
+    "category": "Styling",
+    "aliases": ["css", "vanilla css", "flexbox", "css grid"],
+    "description": "Style sheet language used for describing the presentation of a document.",
+    "evidence_types": ["github_repo", "hackathon_project"]
+  },
+  {
+    "id": "redux-016",
+    "name": "Redux",
+    "domain": "Frontend Development",
+    "category": "State Management",
+    "aliases": ["redux toolkit", "rtk", "redux-thunk"],
+    "description": "Predictable state container for JavaScript apps.",
+    "evidence_types": ["github_repo", "pull_request"]
+  },
+  {
+    "id": "nodejs-017",
+    "name": "Node.js",
+    "domain": "Backend Development",
+    "category": "Runtimes",
+    "aliases": ["node", "nodejs"],
+    "description": "Cross-platform JavaScript runtime environment based on V8 engine.",
+    "evidence_types": ["github_repo", "pull_request", "hackathon_project"]
+  },
+  {
+    "id": "fastapi-018",
+    "name": "FastAPI",
+    "domain": "Backend Development",
+    "category": "Frameworks",
+    "aliases": ["fast-api", "fastapi framework"],
+    "description": "Modern high-performance web framework for building APIs with Python 3.8+ based on standard type hints.",
+    "evidence_types": ["github_repo", "hackathon_project"]
+  },
+  {
+    "id": "django-019",
+    "name": "Django",
+    "domain": "Backend Development",
+    "category": "Frameworks",
+    "aliases": ["django rest framework", "drf"],
+    "description": "High-level Python web framework that encourages rapid development and clean pragmatic design.",
+    "evidence_types": ["github_repo", "course_completion"]
+  },
+  {
+    "id": "express-020",
+    "name": "Express.js",
+    "domain": "Backend Development",
+    "category": "Frameworks",
+    "aliases": ["express", "expressjs"],
+    "description": "Minimalist web framework for Node.js applications.",
+    "evidence_types": ["github_repo", "hackathon_project"]
+  },
+  {
+    "id": "springboot-021",
+    "name": "Spring Boot",
+    "domain": "Backend Development",
+    "category": "Frameworks",
+    "aliases": ["spring", "spring framework", "spring cloud"],
+    "description": "Production-ready enterprise Java framework for microservices.",
+    "evidence_types": ["github_repo", "certificate", "academic_coursework"]
+  },
+  {
+    "id": "pytorch-022",
+    "name": "PyTorch",
+    "domain": "AI & Machine Learning",
+    "category": "Deep Learning",
+    "aliases": ["torch", "pytorch lightning"],
+    "description": "Open-source machine learning framework based on the Torch library for deep learning.",
+    "evidence_types": ["github_repo", "research_paper", "hackathon_project"]
+  },
+  {
+    "id": "tensorflow-023",
+    "name": "TensorFlow",
+    "domain": "AI & Machine Learning",
+    "category": "Deep Learning",
+    "aliases": ["tf", "tf2", "keras"],
+    "description": "End-to-end open source platform for machine learning by Google.",
+    "evidence_types": ["github_repo", "certificate", "research_paper"]
+  },
+  {
+    "id": "transformers-024",
+    "name": "Hugging Face Transformers",
+    "domain": "AI & Machine Learning",
+    "category": "NLP & Foundation Models",
+    "aliases": ["huggingface", "transformers", "hf"],
+    "description": "State-of-the-art Natural Language Processing library with pretrained transformer models.",
+    "evidence_types": ["github_repo", "hackathon_project"]
+  },
+  {
+    "id": "scikit-learn-025",
+    "name": "Scikit-Learn",
+    "domain": "AI & Machine Learning",
+    "category": "Classical ML",
+    "aliases": ["sklearn", "scikit learn"],
+    "description": "Python module for machine learning built on top of SciPy and NumPy.",
+    "evidence_types": ["github_repo", "academic_coursework", "competition"]
+  },
+  {
+    "id": "pandas-026",
+    "name": "Pandas",
+    "domain": "Data Science & Analytics",
+    "category": "Data Wrangling",
+    "aliases": ["pd", "pandas dataframe"],
+    "description": "Fast powerful data analysis and manipulation library for Python.",
+    "evidence_types": ["github_repo", "academic_coursework"]
+  },
+  {
+    "id": "numpy-027",
+    "name": "NumPy",
+    "domain": "Data Science & Analytics",
+    "category": "Numerical Computing",
+    "aliases": ["np", "numpy arrays"],
+    "description": "Fundamental package for scientific computing with Python.",
+    "evidence_types": ["github_repo", "academic_coursework"]
+  },
+  {
+    "id": "nlp-028",
+    "name": "Natural Language Processing",
+    "domain": "AI & Machine Learning",
+    "category": "AI Subfields",
+    "aliases": ["nlp", "text processing", "tokenization", "named entity recognition", "ner"],
+    "description": "Subfield of linguistics, computer science, and AI concerning computer-human language interactions.",
+    "evidence_types": ["research_paper", "github_repo", "competition"]
+  },
+  {
+    "id": "computervision-029",
+    "name": "Computer Vision",
+    "domain": "AI & Machine Learning",
+    "category": "AI Subfields",
+    "aliases": ["cv", "opencv", "image classification", "object detection", "yolo"],
+    "description": "Field of AI that trains computers to interpret and understand the visual world.",
+    "evidence_types": ["github_repo", "research_paper", "hackathon_project"]
+  },
+  {
+    "id": "docker-030",
+    "name": "Docker",
+    "domain": "Cloud & DevOps",
+    "category": "Containerization",
+    "aliases": ["docker-compose", "containerization", "dockerfiles"],
+    "description": "Platform for developing, shipping, and running applications in containers.",
+    "evidence_types": ["github_repo", "pull_request", "devops_pipeline"]
+  },
+  {
+    "id": "kubernetes-031",
+    "name": "Kubernetes",
+    "domain": "Cloud & DevOps",
+    "category": "Orchestration",
+    "aliases": ["k8s", "kubectl", "kube"],
+    "description": "Open-source system for automating deployment, scaling, and management of containerized applications.",
+    "evidence_types": ["github_repo", "certificate", "devops_pipeline"]
+  },
+  {
+    "id": "aws-032",
+    "name": "AWS",
+    "domain": "Cloud & DevOps",
+    "category": "Cloud Providers",
+    "aliases": ["amazon web services", "ec2", "s3", "lambda", "rds"],
+    "description": "Comprehensive cloud computing platform provided by Amazon.",
+    "evidence_types": ["certificate", "github_repo", "hackathon_project"]
+  },
+  {
+    "id": "gcp-033",
+    "name": "Google Cloud Platform",
+    "domain": "Cloud & DevOps",
+    "category": "Cloud Providers",
+    "aliases": ["gcp", "google cloud", "cloud run", "bigquery"],
+    "description": "Suite of cloud computing services running on the same infrastructure Google uses internally.",
+    "evidence_types": ["certificate", "github_repo"]
+  },
+  {
+    "id": "azure-034",
+    "name": "Microsoft Azure",
+    "domain": "Cloud & DevOps",
+    "category": "Cloud Providers",
+    "aliases": ["azure", "azure cloud", "azure functions"],
+    "description": "Cloud computing service operated by Microsoft for application management.",
+    "evidence_types": ["certificate", "github_repo"]
+  },
+  {
+    "id": "postgresql-035",
+    "name": "PostgreSQL",
+    "domain": "Databases & Storage",
+    "category": "Relational Databases",
+    "aliases": ["postgres", "pgsql", "psql"],
+    "description": "Powerful open source object-relational database system with strong reliability and SQL compliance.",
+    "evidence_types": ["github_repo", "pull_request"]
+  },
+  {
+    "id": "mongodb-036",
+    "name": "MongoDB",
+    "domain": "Databases & Storage",
+    "category": "NoSQL Databases",
+    "aliases": ["mongo", "nosql", "documentdb"],
+    "description": "Document-oriented NoSQL database program using JSON-like documents with schema.",
+    "evidence_types": ["github_repo", "hackathon_project"]
+  },
+  {
+    "id": "redis-037",
+    "name": "Redis",
+    "domain": "Databases & Storage",
+    "category": "In-Memory Caches",
+    "aliases": ["redis cache", "in-memory datastore"],
+    "description": "In-memory data structure store used as a database, cache, streaming engine, and message broker.",
+    "evidence_types": ["github_repo", "pull_request"]
+  },
+  {
+    "id": "prisma-038",
+    "name": "Prisma ORM",
+    "domain": "Databases & Storage",
+    "category": "ORMs",
+    "aliases": ["prisma", "prisma client", "prisma schema"],
+    "description": "Next-generation ORM for Node.js and TypeScript providing type-safe database queries.",
+    "evidence_types": ["github_repo", "pull_request"]
+  },
+  {
+    "id": "git-039",
+    "name": "Git",
+    "domain": "Software Engineering & Tools",
+    "category": "Version Control",
+    "aliases": ["version control", "github", "gitlab", "git branching"],
+    "description": "Distributed version control system tracking changes in source code during development.",
+    "evidence_types": ["github_repo", "pull_request", "code_review"]
+  },
+  {
+    "id": "cicd-040",
+    "name": "CI/CD",
+    "domain": "Cloud & DevOps",
+    "category": "Automation",
+    "aliases": ["continuous integration", "continuous deployment", "github actions", "gitlab ci", "jenkins"],
+    "description": "Automated pipeline practices for frequent code integration and delivery.",
+    "evidence_types": ["github_repo", "devops_pipeline"]
+  },
+  {
+    "id": "graphql-041",
+    "name": "GraphQL",
+    "domain": "Backend Development",
+    "category": "API Protocols",
+    "aliases": ["apollo graphql", "relay"],
+    "description": "Query language for APIs and runtime for fulfilling queries with existing data.",
+    "evidence_types": ["github_repo", "hackathon_project"]
+  },
+  {
+    "id": "rest-042",
+    "name": "REST APIs",
+    "domain": "Backend Development",
+    "category": "API Protocols",
+    "aliases": ["restful apis", "rest api", "rest", "api design"],
+    "description": "Architectural style for network applications using stateless HTTP methods.",
+    "evidence_types": ["github_repo", "pull_request"]
+  },
+  {
+    "id": "cybersecurity-043",
+    "name": "Cybersecurity",
+    "domain": "Cybersecurity & Systems",
+    "category": "Security",
+    "aliases": ["infosec", "penetration testing", "ethical hacking", "owasp", "network security"],
+    "description": "Protection of computer systems and networks from information disclosure and theft.",
+    "evidence_types": ["ctf_competition", "certificate", "audit_report"]
+  },
+  {
+    "id": "flutter-044",
+    "name": "Flutter",
+    "domain": "Mobile Development",
+    "category": "Cross-Platform",
+    "aliases": ["flutter sdk", "dart flutter"],
+    "description": "Open source framework by Google for building multi-platform applications from a single codebase.",
+    "evidence_types": ["github_repo", "hackathon_project"]
+  },
+  {
+    "id": "react-native-045",
+    "name": "React Native",
+    "domain": "Mobile Development",
+    "category": "Cross-Platform",
+    "aliases": ["rn", "react-native", "expo"],
+    "description": "Framework for building native apps using React.",
+    "evidence_types": ["github_repo", "hackathon_project"]
+  },
+  {
+    "id": "system-design-046",
+    "name": "System Design",
+    "domain": "Software Engineering & Tools",
+    "category": "Architecture",
+    "aliases": ["distributed systems", "software architecture", "scalability", "microservices"],
+    "description": "Process of defining the architecture, components, modules, interfaces, and data for a system.",
+    "evidence_types": ["technical_document", "github_repo", "hackathon_project"]
+  },
+  {
+    "id": "agile-047",
+    "name": "Agile & Scrum",
+    "domain": "Software Engineering & Tools",
+    "category": "Methodology",
+    "aliases": ["scrum", "agile methodology", "kanban", "sprint planning"],
+    "description": "Iterative approach to project management and software development.",
+    "evidence_types": ["leadership_role", "hackathon_project"]
+  },
+  {
+    "id": "linux-048",
+    "name": "Linux",
+    "domain": "Cloud & DevOps",
+    "category": "Operating Systems",
+    "aliases": ["bash", "shell scripting", "ubuntu", "debian", "posix"],
+    "description": "Open-source Unix-like operating system kernel and command-line shell administration.",
+    "evidence_types": ["github_repo", "academic_coursework"]
+  },
+  {
+    "id": "data-structures-049",
+    "name": "Data Structures & Algorithms",
+    "domain": "Computer Science Core",
+    "category": "Foundations",
+    "aliases": ["dsa", "algorithms", "data structures", "leetcode", "problem solving"],
+    "description": "Foundational computing principles including trees, graphs, sorting, searching, and DP.",
+    "evidence_types": ["competitive_programming", "academic_coursework", "hackathon_project"]
+  },
+  {
+    "id": "blockchain-050",
+    "name": "Blockchain & Web3",
+    "domain": "Emerging Technologies",
+    "category": "Decentralized Systems",
+    "aliases": ["solidity", "smart contracts", "ethereum", "web3", "hardhat"],
+    "description": "Decentralized cryptographic ledger technology and smart contract development.",
+    "evidence_types": ["github_repo", "hackathon_project"]
+  }
+]

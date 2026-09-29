@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Next.js build output
+.next/
+out/
+build/
+dist/
+
+# Python Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Large ML Model Weights (>100MB exceeding GitHub file limit)
+*.onnx
+*.safetensors
+*.bin
+*.pt
+*.pth
+skillpulse-models/checkpoints/
+skillpulse-models/onnx/*.onnx
+
+# Databases & Local Storage
+*.db
+*.db-journal
+*.sqlite
+dev.db
+prisma/dev.db
+
+# Environment variables & Credentials
+.env
+.env*.local
+!.env.example
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log

@@ -1,0 +1,8524 @@
+[
+  {
+    "query": "Show skill deficit report for Vue.js across Government College of Technology",
+    "tokens": [
+      "Show",
+      "skill",
+      "deficit",
+      "report",
+      "for",
+      "Vue.js",
+      "across",
+      "Government",
+      "College",
+      "of",
+      "Technology"
+    ],
+    "intent": "SKILL_GAP_ANALYSIS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE"
+    ]
+  },
+  {
+    "query": "Generate placement readiness summary for College of Engineering Guindy on Prisma ORM",
+    "tokens": [
+      "Generate",
+      "placement",
+      "readiness",
+      "summary",
+      "for",
+      "College",
+      "of",
+      "Engineering",
+      "Guindy",
+      "on",
+      "Prisma",
+      "ORM"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Find candidates with at least four verified skills including Linux",
+    "tokens": [
+      "Find",
+      "candidates",
+      "with",
+      "at",
+      "least",
+      "four",
+      "verified",
+      "skills",
+      "including",
+      "Linux"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MIN_VERIFIED",
+      "O",
+      "O",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Audit pending github verification for PyTorch projects",
+    "tokens": [
+      "Audit",
+      "pending",
+      "github",
+      "verification",
+      "for",
+      "PyTorch",
+      "projects"
+    ],
+    "intent": "VERIFY_EVIDENCE",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O"
+    ]
+  },
+  {
+    "query": "Audit pending github verification for Python projects",
+    "tokens": [
+      "Audit",
+      "pending",
+      "github",
+      "verification",
+      "for",
+      "Python",
+      "projects"
+    ],
+    "intent": "VERIFY_EVIDENCE",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O"
+    ]
+  },
+  {
+    "query": "Display ranking of students based on verified Flutter evidence in EEE",
+    "tokens": [
+      "Display",
+      "ranking",
+      "of",
+      "students",
+      "based",
+      "on",
+      "verified",
+      "Flutter",
+      "evidence",
+      "in",
+      "EEE"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-DEPT"
+    ]
+  },
+  {
+    "query": "Top 10 students with highest score in HTML5",
+    "tokens": [
+      "Top",
+      "10",
+      "students",
+      "with",
+      "highest",
+      "score",
+      "in",
+      "HTML5"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "What are the skill gaps in MECH regarding JavaScript?",
+    "tokens": [
+      "What",
+      "are",
+      "the",
+      "skill",
+      "gaps",
+      "in",
+      "MECH",
+      "regarding",
+      "JavaScript?"
+    ],
+    "intent": "SKILL_GAP_ANALYSIS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-DEPT",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Assemble a project team with Blockchain & Web3 frontend and Express.js backend",
+    "tokens": [
+      "Assemble",
+      "a",
+      "project",
+      "team",
+      "with",
+      "Blockchain",
+      "&",
+      "Web3",
+      "frontend",
+      "and",
+      "Express.js",
+      "backend"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "O",
+      "O",
+      "B-SKILL",
+      "O"
+    ]
+  },
+  {
+    "query": "Show me expert Go engineers in 4th year",
+    "tokens": [
+      "Show",
+      "me",
+      "expert",
+      "Go",
+      "engineers",
+      "in",
+      "4th",
+      "year"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "B-PROFICIENCY",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-YEAR",
+      "I-YEAR"
+    ]
+  },
+  {
+    "query": "Find candidates with at least two verified skills including Node.js",
+    "tokens": [
+      "Find",
+      "candidates",
+      "with",
+      "at",
+      "least",
+      "two",
+      "verified",
+      "skills",
+      "including",
+      "Node.js"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MIN_VERIFIED",
+      "O",
+      "O",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Find third year students proficient in Python from EEE",
+    "tokens": [
+      "Find",
+      "third",
+      "year",
+      "students",
+      "proficient",
+      "in",
+      "Python",
+      "from",
+      "EEE"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "B-YEAR",
+      "I-YEAR",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "B-DEPT",
+      "O"
+    ]
+  },
+  {
+    "query": "Compare curriculum vs market demand for Redis in Electronics and Communication",
+    "tokens": [
+      "Compare",
+      "curriculum",
+      "vs",
+      "market",
+      "demand",
+      "for",
+      "Redis",
+      "in",
+      "Electronics",
+      "and",
+      "Communication"
+    ],
+    "intent": "SKILL_GAP_ANALYSIS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "I-DEPT"
+    ]
+  },
+  {
+    "query": "Assemble a project team with Hugging Face Transformers frontend and PyTorch backend",
+    "tokens": [
+      "Assemble",
+      "a",
+      "project",
+      "team",
+      "with",
+      "Hugging",
+      "Face",
+      "Transformers",
+      "frontend",
+      "and",
+      "PyTorch",
+      "backend"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "O",
+      "O",
+      "B-SKILL",
+      "O"
+    ]
+  },
+  {
+    "query": "Display ranking of students based on verified Microsoft Azure evidence in Computer Science and Engineering",
+    "tokens": [
+      "Display",
+      "ranking",
+      "of",
+      "students",
+      "based",
+      "on",
+      "verified",
+      "Microsoft",
+      "Azure",
+      "evidence",
+      "in",
+      "Computer",
+      "Science",
+      "and",
+      "Engineering"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "O",
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "I-DEPT",
+      "I-DEPT"
+    ]
+  },
+  {
+    "query": "Export accreditation report for CSE in Excel format",
+    "tokens": [
+      "Export",
+      "accreditation",
+      "report",
+      "for",
+      "CSE",
+      "in",
+      "Excel",
+      "format"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-DEPT",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Show leaderboard of top performers in REST APIs",
+    "tokens": [
+      "Show",
+      "leaderboard",
+      "of",
+      "top",
+      "performers",
+      "in",
+      "REST",
+      "APIs"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL"
+    ]
+  },
+  {
+    "query": "Who are the top students with verified CSS3 skills in CSE?",
+    "tokens": [
+      "Who",
+      "are",
+      "the",
+      "top",
+      "students",
+      "with",
+      "verified",
+      "CSS3",
+      "skills",
+      "in",
+      "CSE?"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-DEPT"
+    ]
+  },
+  {
+    "query": "Audit pending github verification for Tailwind CSS projects",
+    "tokens": [
+      "Audit",
+      "pending",
+      "github",
+      "verification",
+      "for",
+      "Tailwind",
+      "CSS",
+      "projects"
+    ],
+    "intent": "VERIFY_EVIDENCE",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "O"
+    ]
+  },
+  {
+    "query": "Suggest balanced team for smart city project with Git and C",
+    "tokens": [
+      "Suggest",
+      "balanced",
+      "team",
+      "for",
+      "smart",
+      "city",
+      "project",
+      "with",
+      "Git",
+      "and",
+      "C"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Show unverified claims in Electrical Engineering for Go certificates",
+    "tokens": [
+      "Show",
+      "unverified",
+      "claims",
+      "in",
+      "Electrical",
+      "Engineering",
+      "for",
+      "Go",
+      "certificates"
+    ],
+    "intent": "VERIFY_EVIDENCE",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Find candidates with at least two verified skills including CI/CD",
+    "tokens": [
+      "Find",
+      "candidates",
+      "with",
+      "at",
+      "least",
+      "two",
+      "verified",
+      "skills",
+      "including",
+      "CI/CD"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MIN_VERIFIED",
+      "O",
+      "O",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Compare curriculum vs market demand for Git in Mechanical Engineering",
+    "tokens": [
+      "Compare",
+      "curriculum",
+      "vs",
+      "market",
+      "demand",
+      "for",
+      "Git",
+      "in",
+      "Mechanical",
+      "Engineering"
+    ],
+    "intent": "SKILL_GAP_ANALYSIS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-DEPT",
+      "I-DEPT"
+    ]
+  },
+  {
+    "query": "Top 10 students with highest score in C",
+    "tokens": [
+      "Top",
+      "10",
+      "students",
+      "with",
+      "highest",
+      "score",
+      "in",
+      "C"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Generate placement readiness summary for Coimbatore Institute of Technology on Blockchain & Web3",
+    "tokens": [
+      "Generate",
+      "placement",
+      "readiness",
+      "summary",
+      "for",
+      "Coimbatore",
+      "Institute",
+      "of",
+      "Technology",
+      "on",
+      "Blockchain",
+      "&",
+      "Web3"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Assemble a project team with Git frontend and REST APIs backend",
+    "tokens": [
+      "Assemble",
+      "a",
+      "project",
+      "team",
+      "with",
+      "Git",
+      "frontend",
+      "and",
+      "REST",
+      "APIs",
+      "backend"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "O"
+    ]
+  },
+  {
+    "query": "Form a team of 4th year students with Vue.js and Django capabilities",
+    "tokens": [
+      "Form",
+      "a",
+      "team",
+      "of",
+      "4th",
+      "year",
+      "students",
+      "with",
+      "Vue.js",
+      "and",
+      "Django",
+      "capabilities"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-YEAR",
+      "I-YEAR",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "B-SKILL",
+      "I-SKILL",
+      "O"
+    ]
+  },
+  {
+    "query": "Display ranking of students based on verified Spring Boot evidence in MECH",
+    "tokens": [
+      "Display",
+      "ranking",
+      "of",
+      "students",
+      "based",
+      "on",
+      "verified",
+      "Spring",
+      "Boot",
+      "evidence",
+      "in",
+      "MECH"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "O",
+      "O",
+      "B-DEPT"
+    ]
+  },
+  {
+    "query": "Who is leading in PostgreSQL skill score at College of Engineering Guindy?",
+    "tokens": [
+      "Who",
+      "is",
+      "leading",
+      "in",
+      "PostgreSQL",
+      "skill",
+      "score",
+      "at",
+      "College",
+      "of",
+      "Engineering",
+      "Guindy?"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE"
+    ]
+  },
+  {
+    "query": "Search for Redux and Java developers in SSN College of Engineering",
+    "tokens": [
+      "Search",
+      "for",
+      "Redux",
+      "and",
+      "Java",
+      "developers",
+      "in",
+      "SSN",
+      "College",
+      "of",
+      "Engineering"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE"
+    ]
+  },
+  {
+    "query": "Export accreditation report for Artificial Intelligence & Data Science in Excel format",
+    "tokens": [
+      "Export",
+      "accreditation",
+      "report",
+      "for",
+      "Artificial",
+      "Intelligence",
+      "&",
+      "Data",
+      "Science",
+      "in",
+      "Excel",
+      "format"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "I-DEPT",
+      "I-DEPT",
+      "I-DEPT",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Compare curriculum vs market demand for Rust in Electronics and Communication",
+    "tokens": [
+      "Compare",
+      "curriculum",
+      "vs",
+      "market",
+      "demand",
+      "for",
+      "Rust",
+      "in",
+      "Electronics",
+      "and",
+      "Communication"
+    ],
+    "intent": "SKILL_GAP_ANALYSIS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "I-DEPT"
+    ]
+  },
+  {
+    "query": "Show skill deficit report for GraphQL across College of Engineering Guindy",
+    "tokens": [
+      "Show",
+      "skill",
+      "deficit",
+      "report",
+      "for",
+      "GraphQL",
+      "across",
+      "College",
+      "of",
+      "Engineering",
+      "Guindy"
+    ],
+    "intent": "SKILL_GAP_ANALYSIS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE"
+    ]
+  },
+  {
+    "query": "Form a team of first year students with Docker and Hugging Face Transformers capabilities",
+    "tokens": [
+      "Form",
+      "a",
+      "team",
+      "of",
+      "first",
+      "year",
+      "students",
+      "with",
+      "Docker",
+      "and",
+      "Hugging",
+      "Face",
+      "Transformers",
+      "capabilities"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-YEAR",
+      "I-YEAR",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "B-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "O"
+    ]
+  },
+  {
+    "query": "Find candidates with at least 3+ verified skills including Node.js",
+    "tokens": [
+      "Find",
+      "candidates",
+      "with",
+      "at",
+      "least",
+      "3+",
+      "verified",
+      "skills",
+      "including",
+      "Node.js"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MIN_VERIFIED",
+      "O",
+      "O",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Export accreditation report for IT in Excel format",
+    "tokens": [
+      "Export",
+      "accreditation",
+      "report",
+      "for",
+      "IT",
+      "in",
+      "Excel",
+      "format"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-DEPT",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Find third year students proficient in AWS from Electrical Engineering",
+    "tokens": [
+      "Find",
+      "third",
+      "year",
+      "students",
+      "proficient",
+      "in",
+      "AWS",
+      "from",
+      "Electrical",
+      "Engineering"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "B-YEAR",
+      "I-YEAR",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "I-DEPT"
+    ]
+  },
+  {
+    "query": "Find candidates with at least two verified skills including PostgreSQL",
+    "tokens": [
+      "Find",
+      "candidates",
+      "with",
+      "at",
+      "least",
+      "two",
+      "verified",
+      "skills",
+      "including",
+      "PostgreSQL"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MIN_VERIFIED",
+      "O",
+      "O",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Assemble a project team with Pandas frontend and Java backend",
+    "tokens": [
+      "Assemble",
+      "a",
+      "project",
+      "team",
+      "with",
+      "Pandas",
+      "frontend",
+      "and",
+      "Java",
+      "backend"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-SKILL",
+      "O"
+    ]
+  },
+  {
+    "query": "Show unverified claims in Mechanical Engineering for GraphQL certificates",
+    "tokens": [
+      "Show",
+      "unverified",
+      "claims",
+      "in",
+      "Mechanical",
+      "Engineering",
+      "for",
+      "GraphQL",
+      "certificates"
+    ],
+    "intent": "VERIFY_EVIDENCE",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Display ranking of students based on verified Tailwind CSS evidence in ECE",
+    "tokens": [
+      "Display",
+      "ranking",
+      "of",
+      "students",
+      "based",
+      "on",
+      "verified",
+      "Tailwind",
+      "CSS",
+      "evidence",
+      "in",
+      "ECE"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "O",
+      "O",
+      "B-DEPT"
+    ]
+  },
+  {
+    "query": "Find senior students proficient in JavaScript from Electrical Engineering",
+    "tokens": [
+      "Find",
+      "senior",
+      "students",
+      "proficient",
+      "in",
+      "JavaScript",
+      "from",
+      "Electrical",
+      "Engineering"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "B-YEAR",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-DEPT",
+      "I-DEPT"
+    ]
+  },
+  {
+    "query": "Export accreditation report for Information Technology in Excel format",
+    "tokens": [
+      "Export",
+      "accreditation",
+      "report",
+      "for",
+      "Information",
+      "Technology",
+      "in",
+      "Excel",
+      "format"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Show skill deficit report for Microsoft Azure across Coimbatore Institute of Technology",
+    "tokens": [
+      "Show",
+      "skill",
+      "deficit",
+      "report",
+      "for",
+      "Microsoft",
+      "Azure",
+      "across",
+      "Coimbatore",
+      "Institute",
+      "of",
+      "Technology"
+    ],
+    "intent": "SKILL_GAP_ANALYSIS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE"
+    ]
+  },
+  {
+    "query": "Show leaderboard of top performers in React Native",
+    "tokens": [
+      "Show",
+      "leaderboard",
+      "of",
+      "top",
+      "performers",
+      "in",
+      "React",
+      "Native"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL"
+    ]
+  },
+  {
+    "query": "What are the skill gaps in Computer Science and Engineering regarding React?",
+    "tokens": [
+      "What",
+      "are",
+      "the",
+      "skill",
+      "gaps",
+      "in",
+      "Computer",
+      "Science",
+      "and",
+      "Engineering",
+      "regarding",
+      "React?"
+    ],
+    "intent": "SKILL_GAP_ANALYSIS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "I-DEPT",
+      "I-DEPT",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Top 10 students with highest score in Kubernetes",
+    "tokens": [
+      "Top",
+      "10",
+      "students",
+      "with",
+      "highest",
+      "score",
+      "in",
+      "Kubernetes"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Filter Mechanical Engineering students who know Linux and JavaScript",
+    "tokens": [
+      "Filter",
+      "Mechanical",
+      "Engineering",
+      "students",
+      "who",
+      "know",
+      "Linux",
+      "and",
+      "JavaScript"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "B-SKILL",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Form a team of third year students with Rust and FastAPI capabilities",
+    "tokens": [
+      "Form",
+      "a",
+      "team",
+      "of",
+      "third",
+      "year",
+      "students",
+      "with",
+      "Rust",
+      "and",
+      "FastAPI",
+      "capabilities"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-YEAR",
+      "I-YEAR",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "O"
+    ]
+  },
+  {
+    "query": "Filter ECE students who know Flutter and Redis",
+    "tokens": [
+      "Filter",
+      "ECE",
+      "students",
+      "who",
+      "know",
+      "Flutter",
+      "and",
+      "Redis"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "B-DEPT",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Export accreditation report for AI&DS in Excel format",
+    "tokens": [
+      "Export",
+      "accreditation",
+      "report",
+      "for",
+      "AI&DS",
+      "in",
+      "Excel",
+      "format"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-DEPT",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Show me level 2 Linux engineers in second year",
+    "tokens": [
+      "Show",
+      "me",
+      "level",
+      "2",
+      "Linux",
+      "engineers",
+      "in",
+      "second",
+      "year"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "B-PROFICIENCY",
+      "I-PROFICIENCY",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-YEAR",
+      "I-YEAR"
+    ]
+  },
+  {
+    "query": "Who is leading in Microsoft Azure skill score at Government College of Technology?",
+    "tokens": [
+      "Who",
+      "is",
+      "leading",
+      "in",
+      "Microsoft",
+      "Azure",
+      "skill",
+      "score",
+      "at",
+      "Government",
+      "College",
+      "of",
+      "Technology?"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "O",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE"
+    ]
+  },
+  {
+    "query": "Generate placement readiness summary for Thiagarajar College of Engineering on C",
+    "tokens": [
+      "Generate",
+      "placement",
+      "readiness",
+      "summary",
+      "for",
+      "Thiagarajar",
+      "College",
+      "of",
+      "Engineering",
+      "on",
+      "C"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Review pending evidence submissions for Microsoft Azure",
+    "tokens": [
+      "Review",
+      "pending",
+      "evidence",
+      "submissions",
+      "for",
+      "Microsoft",
+      "Azure"
+    ],
+    "intent": "VERIFY_EVIDENCE",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL"
+    ]
+  },
+  {
+    "query": "Export accreditation report for MECH in Excel format",
+    "tokens": [
+      "Export",
+      "accreditation",
+      "report",
+      "for",
+      "MECH",
+      "in",
+      "Excel",
+      "format"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-DEPT",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Export accreditation report for IT in Excel format",
+    "tokens": [
+      "Export",
+      "accreditation",
+      "report",
+      "for",
+      "IT",
+      "in",
+      "Excel",
+      "format"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-DEPT",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Show me advanced Express.js engineers in third year",
+    "tokens": [
+      "Show",
+      "me",
+      "advanced",
+      "Express.js",
+      "engineers",
+      "in",
+      "third",
+      "year"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "B-PROFICIENCY",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-YEAR",
+      "I-YEAR"
+    ]
+  },
+  {
+    "query": "Who is leading in Pandas skill score at College of Engineering Guindy?",
+    "tokens": [
+      "Who",
+      "is",
+      "leading",
+      "in",
+      "Pandas",
+      "skill",
+      "score",
+      "at",
+      "College",
+      "of",
+      "Engineering",
+      "Guindy?"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE"
+    ]
+  },
+  {
+    "query": "Who is leading in CSS3 skill score at SSN College of Engineering?",
+    "tokens": [
+      "Who",
+      "is",
+      "leading",
+      "in",
+      "CSS3",
+      "skill",
+      "score",
+      "at",
+      "SSN",
+      "College",
+      "of",
+      "Engineering?"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE"
+    ]
+  },
+  {
+    "query": "Show unverified claims in Information Technology for PostgreSQL certificates",
+    "tokens": [
+      "Show",
+      "unverified",
+      "claims",
+      "in",
+      "Information",
+      "Technology",
+      "for",
+      "PostgreSQL",
+      "certificates"
+    ],
+    "intent": "VERIFY_EVIDENCE",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Search for Natural Language Processing and Java developers in College of Engineering Guindy",
+    "tokens": [
+      "Search",
+      "for",
+      "Natural",
+      "Language",
+      "Processing",
+      "and",
+      "Java",
+      "developers",
+      "in",
+      "College",
+      "of",
+      "Engineering",
+      "Guindy"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE"
+    ]
+  },
+  {
+    "query": "Show me intermediate Git engineers in sophomore",
+    "tokens": [
+      "Show",
+      "me",
+      "intermediate",
+      "Git",
+      "engineers",
+      "in",
+      "sophomore"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "B-PROFICIENCY",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-YEAR"
+    ]
+  },
+  {
+    "query": "Show skill deficit report for Linux across SSN College of Engineering",
+    "tokens": [
+      "Show",
+      "skill",
+      "deficit",
+      "report",
+      "for",
+      "Linux",
+      "across",
+      "SSN",
+      "College",
+      "of",
+      "Engineering"
+    ],
+    "intent": "SKILL_GAP_ANALYSIS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE"
+    ]
+  },
+  {
+    "query": "What are the skill gaps in CSE regarding Git?",
+    "tokens": [
+      "What",
+      "are",
+      "the",
+      "skill",
+      "gaps",
+      "in",
+      "CSE",
+      "regarding",
+      "Git?"
+    ],
+    "intent": "SKILL_GAP_ANALYSIS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-DEPT",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Form a team of 3rd year students with System Design and Agile & Scrum capabilities",
+    "tokens": [
+      "Form",
+      "a",
+      "team",
+      "of",
+      "3rd",
+      "year",
+      "students",
+      "with",
+      "System",
+      "Design",
+      "and",
+      "Agile",
+      "&",
+      "Scrum",
+      "capabilities"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-YEAR",
+      "I-YEAR",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "B-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "O"
+    ]
+  },
+  {
+    "query": "Download verified skills report for second year students",
+    "tokens": [
+      "Download",
+      "verified",
+      "skills",
+      "report",
+      "for",
+      "second",
+      "year",
+      "students"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-YEAR",
+      "I-YEAR",
+      "O"
+    ]
+  },
+  {
+    "query": "Download verified skills report for senior students",
+    "tokens": [
+      "Download",
+      "verified",
+      "skills",
+      "report",
+      "for",
+      "senior",
+      "students"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-YEAR",
+      "O"
+    ]
+  },
+  {
+    "query": "Display ranking of students based on verified Vue.js evidence in EEE",
+    "tokens": [
+      "Display",
+      "ranking",
+      "of",
+      "students",
+      "based",
+      "on",
+      "verified",
+      "Vue.js",
+      "evidence",
+      "in",
+      "EEE"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-DEPT"
+    ]
+  },
+  {
+    "query": "Find 3rd year students proficient in HTML5 from Artificial Intelligence & Data Science",
+    "tokens": [
+      "Find",
+      "3rd",
+      "year",
+      "students",
+      "proficient",
+      "in",
+      "HTML5",
+      "from",
+      "Artificial",
+      "Intelligence",
+      "&",
+      "Data",
+      "Science"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "B-YEAR",
+      "I-YEAR",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "B-DEPT",
+      "I-DEPT",
+      "I-DEPT",
+      "I-DEPT",
+      "I-DEPT",
+      "I-DEPT"
+    ]
+  },
+  {
+    "query": "Top 10 students with highest score in System Design",
+    "tokens": [
+      "Top",
+      "10",
+      "students",
+      "with",
+      "highest",
+      "score",
+      "in",
+      "System",
+      "Design"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL"
+    ]
+  },
+  {
+    "query": "Analyze missing competencies in Go and TypeScript",
+    "tokens": [
+      "Analyze",
+      "missing",
+      "competencies",
+      "in",
+      "Go",
+      "and",
+      "TypeScript"
+    ],
+    "intent": "SKILL_GAP_ANALYSIS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Show me expert React engineers in final year",
+    "tokens": [
+      "Show",
+      "me",
+      "expert",
+      "React",
+      "engineers",
+      "in",
+      "final",
+      "year"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "B-PROFICIENCY",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-YEAR",
+      "I-YEAR"
+    ]
+  },
+  {
+    "query": "Generate placement readiness summary for Government College of Technology on Hugging Face Transformers",
+    "tokens": [
+      "Generate",
+      "placement",
+      "readiness",
+      "summary",
+      "for",
+      "Government",
+      "College",
+      "of",
+      "Technology",
+      "on",
+      "Hugging",
+      "Face",
+      "Transformers"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-SKILL",
+      "I-SKILL",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Show me level 1 FastAPI engineers in 1st year",
+    "tokens": [
+      "Show",
+      "me",
+      "level",
+      "1",
+      "FastAPI",
+      "engineers",
+      "in",
+      "1st",
+      "year"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "B-PROFICIENCY",
+      "I-PROFICIENCY",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-YEAR",
+      "I-YEAR"
+    ]
+  },
+  {
+    "query": "Show skill deficit report for Redux across College of Engineering Guindy",
+    "tokens": [
+      "Show",
+      "skill",
+      "deficit",
+      "report",
+      "for",
+      "Redux",
+      "across",
+      "College",
+      "of",
+      "Engineering",
+      "Guindy"
+    ],
+    "intent": "SKILL_GAP_ANALYSIS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE"
+    ]
+  },
+  {
+    "query": "Assemble a project team with React frontend and Django backend",
+    "tokens": [
+      "Assemble",
+      "a",
+      "project",
+      "team",
+      "with",
+      "React",
+      "frontend",
+      "and",
+      "Django",
+      "backend"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-SKILL",
+      "O"
+    ]
+  },
+  {
+    "query": "Display ranking of students based on verified CI/CD evidence in AI&DS",
+    "tokens": [
+      "Display",
+      "ranking",
+      "of",
+      "students",
+      "based",
+      "on",
+      "verified",
+      "CI/CD",
+      "evidence",
+      "in",
+      "AI&DS"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-DEPT"
+    ]
+  },
+  {
+    "query": "Find sophomore students proficient in PostgreSQL from EEE",
+    "tokens": [
+      "Find",
+      "sophomore",
+      "students",
+      "proficient",
+      "in",
+      "PostgreSQL",
+      "from",
+      "EEE"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "B-YEAR",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "B-DEPT",
+      "O"
+    ]
+  },
+  {
+    "query": "Who is leading in Go skill score at College of Engineering Guindy?",
+    "tokens": [
+      "Who",
+      "is",
+      "leading",
+      "in",
+      "Go",
+      "skill",
+      "score",
+      "at",
+      "College",
+      "of",
+      "Engineering",
+      "Guindy?"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE"
+    ]
+  },
+  {
+    "query": "Generate placement readiness summary for PSG College of Technology on Scikit-Learn",
+    "tokens": [
+      "Generate",
+      "placement",
+      "readiness",
+      "summary",
+      "for",
+      "PSG",
+      "College",
+      "of",
+      "Technology",
+      "on",
+      "Scikit-Learn"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Form a team of junior students with GraphQL and Next.js capabilities",
+    "tokens": [
+      "Form",
+      "a",
+      "team",
+      "of",
+      "junior",
+      "students",
+      "with",
+      "GraphQL",
+      "and",
+      "Next.js",
+      "capabilities"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-YEAR",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-SKILL",
+      "O"
+    ]
+  },
+  {
+    "query": "Search for Docker and Spring Boot developers in Government College of Technology",
+    "tokens": [
+      "Search",
+      "for",
+      "Docker",
+      "and",
+      "Spring",
+      "Boot",
+      "developers",
+      "in",
+      "Government",
+      "College",
+      "of",
+      "Technology"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE"
+    ]
+  },
+  {
+    "query": "Download verified skills report for junior students",
+    "tokens": [
+      "Download",
+      "verified",
+      "skills",
+      "report",
+      "for",
+      "junior",
+      "students"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-YEAR",
+      "O"
+    ]
+  },
+  {
+    "query": "Generate placement readiness summary for SSN College of Engineering on Python",
+    "tokens": [
+      "Generate",
+      "placement",
+      "readiness",
+      "summary",
+      "for",
+      "SSN",
+      "College",
+      "of",
+      "Engineering",
+      "on",
+      "Python"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Analyze missing competencies in Kubernetes and PyTorch",
+    "tokens": [
+      "Analyze",
+      "missing",
+      "competencies",
+      "in",
+      "Kubernetes",
+      "and",
+      "PyTorch"
+    ],
+    "intent": "SKILL_GAP_ANALYSIS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Display ranking of students based on verified Rust evidence in MECH",
+    "tokens": [
+      "Display",
+      "ranking",
+      "of",
+      "students",
+      "based",
+      "on",
+      "verified",
+      "Rust",
+      "evidence",
+      "in",
+      "MECH"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-DEPT"
+    ]
+  },
+  {
+    "query": "Export accreditation report for Information Technology in Excel format",
+    "tokens": [
+      "Export",
+      "accreditation",
+      "report",
+      "for",
+      "Information",
+      "Technology",
+      "in",
+      "Excel",
+      "format"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Find final year students proficient in CI/CD from EEE",
+    "tokens": [
+      "Find",
+      "final",
+      "year",
+      "students",
+      "proficient",
+      "in",
+      "CI/CD",
+      "from",
+      "EEE"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "B-YEAR",
+      "I-YEAR",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "B-DEPT",
+      "O"
+    ]
+  },
+  {
+    "query": "Build a team for hackathon requiring Agile & Scrum and JavaScript",
+    "tokens": [
+      "Build",
+      "a",
+      "team",
+      "for",
+      "hackathon",
+      "requiring",
+      "Agile",
+      "&",
+      "Scrum",
+      "and",
+      "JavaScript"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Review pending evidence submissions for AWS",
+    "tokens": [
+      "Review",
+      "pending",
+      "evidence",
+      "submissions",
+      "for",
+      "AWS"
+    ],
+    "intent": "VERIFY_EVIDENCE",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Download verified skills report for senior students",
+    "tokens": [
+      "Download",
+      "verified",
+      "skills",
+      "report",
+      "for",
+      "senior",
+      "students"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-YEAR",
+      "O"
+    ]
+  },
+  {
+    "query": "Show me level 2 CI/CD engineers in first year",
+    "tokens": [
+      "Show",
+      "me",
+      "level",
+      "2",
+      "CI/CD",
+      "engineers",
+      "in",
+      "first",
+      "year"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "B-PROFICIENCY",
+      "I-PROFICIENCY",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-YEAR",
+      "I-YEAR"
+    ]
+  },
+  {
+    "query": "Compare curriculum vs market demand for Pandas in Computer Science and Engineering",
+    "tokens": [
+      "Compare",
+      "curriculum",
+      "vs",
+      "market",
+      "demand",
+      "for",
+      "Pandas",
+      "in",
+      "Computer",
+      "Science",
+      "and",
+      "Engineering"
+    ],
+    "intent": "SKILL_GAP_ANALYSIS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "I-DEPT",
+      "I-DEPT"
+    ]
+  },
+  {
+    "query": "Who is leading in CSS3 skill score at College of Engineering Guindy?",
+    "tokens": [
+      "Who",
+      "is",
+      "leading",
+      "in",
+      "CSS3",
+      "skill",
+      "score",
+      "at",
+      "College",
+      "of",
+      "Engineering",
+      "Guindy?"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE"
+    ]
+  },
+  {
+    "query": "Top 10 students with highest score in TensorFlow",
+    "tokens": [
+      "Top",
+      "10",
+      "students",
+      "with",
+      "highest",
+      "score",
+      "in",
+      "TensorFlow"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Compare curriculum vs market demand for REST APIs in EEE",
+    "tokens": [
+      "Compare",
+      "curriculum",
+      "vs",
+      "market",
+      "demand",
+      "for",
+      "REST",
+      "APIs",
+      "in",
+      "EEE"
+    ],
+    "intent": "SKILL_GAP_ANALYSIS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "O",
+      "B-DEPT"
+    ]
+  },
+  {
+    "query": "Generate placement readiness summary for Coimbatore Institute of Technology on Tailwind CSS",
+    "tokens": [
+      "Generate",
+      "placement",
+      "readiness",
+      "summary",
+      "for",
+      "Coimbatore",
+      "Institute",
+      "of",
+      "Technology",
+      "on",
+      "Tailwind",
+      "CSS"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Search for React Native and NumPy developers in PSG College of Technology",
+    "tokens": [
+      "Search",
+      "for",
+      "React",
+      "Native",
+      "and",
+      "NumPy",
+      "developers",
+      "in",
+      "PSG",
+      "College",
+      "of",
+      "Technology"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE"
+    ]
+  },
+  {
+    "query": "Show unverified claims in Artificial Intelligence & Data Science for Kubernetes certificates",
+    "tokens": [
+      "Show",
+      "unverified",
+      "claims",
+      "in",
+      "Artificial",
+      "Intelligence",
+      "&",
+      "Data",
+      "Science",
+      "for",
+      "Kubernetes",
+      "certificates"
+    ],
+    "intent": "VERIFY_EVIDENCE",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "I-DEPT",
+      "I-DEPT",
+      "I-DEPT",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Who are the top students with verified AWS skills in Mechanical Engineering?",
+    "tokens": [
+      "Who",
+      "are",
+      "the",
+      "top",
+      "students",
+      "with",
+      "verified",
+      "AWS",
+      "skills",
+      "in",
+      "Mechanical",
+      "Engineering?"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-DEPT",
+      "I-DEPT"
+    ]
+  },
+  {
+    "query": "Form a team of sophomore students with TensorFlow and Next.js capabilities",
+    "tokens": [
+      "Form",
+      "a",
+      "team",
+      "of",
+      "sophomore",
+      "students",
+      "with",
+      "TensorFlow",
+      "and",
+      "Next.js",
+      "capabilities"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-YEAR",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "B-SKILL",
+      "I-SKILL",
+      "O"
+    ]
+  },
+  {
+    "query": "Who are the top students with verified Agile & Scrum skills in Electronics and Communication?",
+    "tokens": [
+      "Who",
+      "are",
+      "the",
+      "top",
+      "students",
+      "with",
+      "verified",
+      "Agile",
+      "&",
+      "Scrum",
+      "skills",
+      "in",
+      "Electronics",
+      "and",
+      "Communication?"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "O",
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "I-DEPT"
+    ]
+  },
+  {
+    "query": "Review pending evidence submissions for AWS",
+    "tokens": [
+      "Review",
+      "pending",
+      "evidence",
+      "submissions",
+      "for",
+      "AWS"
+    ],
+    "intent": "VERIFY_EVIDENCE",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Find candidates with at least 5 verified skills including Microsoft Azure",
+    "tokens": [
+      "Find",
+      "candidates",
+      "with",
+      "at",
+      "least",
+      "5",
+      "verified",
+      "skills",
+      "including",
+      "Microsoft",
+      "Azure"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MIN_VERIFIED",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL"
+    ]
+  },
+  {
+    "query": "Generate placement readiness summary for College of Engineering Guindy on FastAPI",
+    "tokens": [
+      "Generate",
+      "placement",
+      "readiness",
+      "summary",
+      "for",
+      "College",
+      "of",
+      "Engineering",
+      "Guindy",
+      "on",
+      "FastAPI"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Who are the top students with verified Git skills in Information Technology?",
+    "tokens": [
+      "Who",
+      "are",
+      "the",
+      "top",
+      "students",
+      "with",
+      "verified",
+      "Git",
+      "skills",
+      "in",
+      "Information",
+      "Technology?"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-DEPT",
+      "I-DEPT"
+    ]
+  },
+  {
+    "query": "Build a team for hackathon requiring Redis and C++",
+    "tokens": [
+      "Build",
+      "a",
+      "team",
+      "for",
+      "hackathon",
+      "requiring",
+      "Redis",
+      "and",
+      "C++"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Generate placement readiness summary for Thiagarajar College of Engineering on C++",
+    "tokens": [
+      "Generate",
+      "placement",
+      "readiness",
+      "summary",
+      "for",
+      "Thiagarajar",
+      "College",
+      "of",
+      "Engineering",
+      "on",
+      "C++"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Suggest balanced team for smart city project with Java and Git",
+    "tokens": [
+      "Suggest",
+      "balanced",
+      "team",
+      "for",
+      "smart",
+      "city",
+      "project",
+      "with",
+      "Java",
+      "and",
+      "Git"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Review pending evidence submissions for Microsoft Azure",
+    "tokens": [
+      "Review",
+      "pending",
+      "evidence",
+      "submissions",
+      "for",
+      "Microsoft",
+      "Azure"
+    ],
+    "intent": "VERIFY_EVIDENCE",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL"
+    ]
+  },
+  {
+    "query": "Show skill deficit report for Linux across Thiagarajar College of Engineering",
+    "tokens": [
+      "Show",
+      "skill",
+      "deficit",
+      "report",
+      "for",
+      "Linux",
+      "across",
+      "Thiagarajar",
+      "College",
+      "of",
+      "Engineering"
+    ],
+    "intent": "SKILL_GAP_ANALYSIS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE"
+    ]
+  },
+  {
+    "query": "Form a team of 1st year students with SQL and Express.js capabilities",
+    "tokens": [
+      "Form",
+      "a",
+      "team",
+      "of",
+      "1st",
+      "year",
+      "students",
+      "with",
+      "SQL",
+      "and",
+      "Express.js",
+      "capabilities"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-YEAR",
+      "I-YEAR",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "B-SKILL",
+      "I-SKILL",
+      "O"
+    ]
+  },
+  {
+    "query": "Assemble a project team with Google Cloud Platform frontend and Docker backend",
+    "tokens": [
+      "Assemble",
+      "a",
+      "project",
+      "team",
+      "with",
+      "Google",
+      "Cloud",
+      "Platform",
+      "frontend",
+      "and",
+      "Docker",
+      "backend"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "O",
+      "O",
+      "B-SKILL",
+      "O"
+    ]
+  },
+  {
+    "query": "Review pending evidence submissions for Cybersecurity",
+    "tokens": [
+      "Review",
+      "pending",
+      "evidence",
+      "submissions",
+      "for",
+      "Cybersecurity"
+    ],
+    "intent": "VERIFY_EVIDENCE",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Find candidates with at least 3+ verified skills including Git",
+    "tokens": [
+      "Find",
+      "candidates",
+      "with",
+      "at",
+      "least",
+      "3+",
+      "verified",
+      "skills",
+      "including",
+      "Git"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MIN_VERIFIED",
+      "O",
+      "O",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Search for C and React developers in PSG College of Technology",
+    "tokens": [
+      "Search",
+      "for",
+      "C",
+      "and",
+      "React",
+      "developers",
+      "in",
+      "PSG",
+      "College",
+      "of",
+      "Technology"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE"
+    ]
+  },
+  {
+    "query": "Who are the top students with verified Scikit-Learn skills in Artificial Intelligence & Data Science?",
+    "tokens": [
+      "Who",
+      "are",
+      "the",
+      "top",
+      "students",
+      "with",
+      "verified",
+      "Scikit-Learn",
+      "skills",
+      "in",
+      "Artificial",
+      "Intelligence",
+      "&",
+      "Data",
+      "Science?"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "I-DEPT",
+      "I-DEPT",
+      "I-DEPT"
+    ]
+  },
+  {
+    "query": "Search for System Design and AWS developers in Coimbatore Institute of Technology",
+    "tokens": [
+      "Search",
+      "for",
+      "System",
+      "Design",
+      "and",
+      "AWS",
+      "developers",
+      "in",
+      "Coimbatore",
+      "Institute",
+      "of",
+      "Technology"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE"
+    ]
+  },
+  {
+    "query": "Top 10 students with highest score in Docker",
+    "tokens": [
+      "Top",
+      "10",
+      "students",
+      "with",
+      "highest",
+      "score",
+      "in",
+      "Docker"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Show unverified claims in Electronics and Communication for Flutter certificates",
+    "tokens": [
+      "Show",
+      "unverified",
+      "claims",
+      "in",
+      "Electronics",
+      "and",
+      "Communication",
+      "for",
+      "Flutter",
+      "certificates"
+    ],
+    "intent": "VERIFY_EVIDENCE",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "I-DEPT",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Display ranking of students based on verified Next.js evidence in CSE",
+    "tokens": [
+      "Display",
+      "ranking",
+      "of",
+      "students",
+      "based",
+      "on",
+      "verified",
+      "Next.js",
+      "evidence",
+      "in",
+      "CSE"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-DEPT"
+    ]
+  },
+  {
+    "query": "Filter ECE students who know Prisma ORM and FastAPI",
+    "tokens": [
+      "Filter",
+      "ECE",
+      "students",
+      "who",
+      "know",
+      "Prisma",
+      "ORM",
+      "and",
+      "FastAPI"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "B-DEPT",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Who are the top students with verified Python skills in Artificial Intelligence & Data Science?",
+    "tokens": [
+      "Who",
+      "are",
+      "the",
+      "top",
+      "students",
+      "with",
+      "verified",
+      "Python",
+      "skills",
+      "in",
+      "Artificial",
+      "Intelligence",
+      "&",
+      "Data",
+      "Science?"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "I-DEPT",
+      "I-DEPT",
+      "I-DEPT"
+    ]
+  },
+  {
+    "query": "Top 10 students with highest score in Prisma ORM",
+    "tokens": [
+      "Top",
+      "10",
+      "students",
+      "with",
+      "highest",
+      "score",
+      "in",
+      "Prisma",
+      "ORM"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL"
+    ]
+  },
+  {
+    "query": "Show unverified claims in MECH for Docker certificates",
+    "tokens": [
+      "Show",
+      "unverified",
+      "claims",
+      "in",
+      "MECH",
+      "for",
+      "Docker",
+      "certificates"
+    ],
+    "intent": "VERIFY_EVIDENCE",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-DEPT",
+      "O",
+      "B-SKILL",
+      "I-SKILL"
+    ]
+  },
+  {
+    "query": "Export accreditation report for Artificial Intelligence & Data Science in Excel format",
+    "tokens": [
+      "Export",
+      "accreditation",
+      "report",
+      "for",
+      "Artificial",
+      "Intelligence",
+      "&",
+      "Data",
+      "Science",
+      "in",
+      "Excel",
+      "format"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "I-DEPT",
+      "I-DEPT",
+      "I-DEPT",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Display ranking of students based on verified React Native evidence in Electronics and Communication",
+    "tokens": [
+      "Display",
+      "ranking",
+      "of",
+      "students",
+      "based",
+      "on",
+      "verified",
+      "React",
+      "Native",
+      "evidence",
+      "in",
+      "Electronics",
+      "and",
+      "Communication"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "O",
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "I-DEPT"
+    ]
+  },
+  {
+    "query": "What are the skill gaps in ECE regarding C?",
+    "tokens": [
+      "What",
+      "are",
+      "the",
+      "skill",
+      "gaps",
+      "in",
+      "ECE",
+      "regarding",
+      "C?"
+    ],
+    "intent": "SKILL_GAP_ANALYSIS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-DEPT",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Show unverified claims in EEE for Rust certificates",
+    "tokens": [
+      "Show",
+      "unverified",
+      "claims",
+      "in",
+      "EEE",
+      "for",
+      "Rust",
+      "certificates"
+    ],
+    "intent": "VERIFY_EVIDENCE",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-DEPT",
+      "O",
+      "B-SKILL",
+      "I-SKILL"
+    ]
+  },
+  {
+    "query": "Suggest balanced team for smart city project with Cybersecurity and Agile & Scrum",
+    "tokens": [
+      "Suggest",
+      "balanced",
+      "team",
+      "for",
+      "smart",
+      "city",
+      "project",
+      "with",
+      "Cybersecurity",
+      "and",
+      "Agile",
+      "&",
+      "Scrum"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "I-SKILL"
+    ]
+  },
+  {
+    "query": "Who is leading in Docker skill score at College of Engineering Guindy?",
+    "tokens": [
+      "Who",
+      "is",
+      "leading",
+      "in",
+      "Docker",
+      "skill",
+      "score",
+      "at",
+      "College",
+      "of",
+      "Engineering",
+      "Guindy?"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE"
+    ]
+  },
+  {
+    "query": "Assemble a project team with MongoDB frontend and JavaScript backend",
+    "tokens": [
+      "Assemble",
+      "a",
+      "project",
+      "team",
+      "with",
+      "MongoDB",
+      "frontend",
+      "and",
+      "JavaScript",
+      "backend"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-SKILL",
+      "O"
+    ]
+  },
+  {
+    "query": "Who is leading in React skill score at PSG College of Technology?",
+    "tokens": [
+      "Who",
+      "is",
+      "leading",
+      "in",
+      "React",
+      "skill",
+      "score",
+      "at",
+      "PSG",
+      "College",
+      "of",
+      "Technology?"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE"
+    ]
+  },
+  {
+    "query": "Suggest balanced team for smart city project with C++ and Docker",
+    "tokens": [
+      "Suggest",
+      "balanced",
+      "team",
+      "for",
+      "smart",
+      "city",
+      "project",
+      "with",
+      "C++",
+      "and",
+      "Docker"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Review pending evidence submissions for AWS",
+    "tokens": [
+      "Review",
+      "pending",
+      "evidence",
+      "submissions",
+      "for",
+      "AWS"
+    ],
+    "intent": "VERIFY_EVIDENCE",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Generate placement readiness summary for SSN College of Engineering on System Design",
+    "tokens": [
+      "Generate",
+      "placement",
+      "readiness",
+      "summary",
+      "for",
+      "SSN",
+      "College",
+      "of",
+      "Engineering",
+      "on",
+      "System",
+      "Design"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Suggest balanced team for smart city project with Docker and Google Cloud Platform",
+    "tokens": [
+      "Suggest",
+      "balanced",
+      "team",
+      "for",
+      "smart",
+      "city",
+      "project",
+      "with",
+      "Docker",
+      "and",
+      "Google",
+      "Cloud",
+      "Platform"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "I-SKILL"
+    ]
+  },
+  {
+    "query": "Audit pending github verification for SQL projects",
+    "tokens": [
+      "Audit",
+      "pending",
+      "github",
+      "verification",
+      "for",
+      "SQL",
+      "projects"
+    ],
+    "intent": "VERIFY_EVIDENCE",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O"
+    ]
+  },
+  {
+    "query": "Export accreditation report for Mechanical Engineering in Excel format",
+    "tokens": [
+      "Export",
+      "accreditation",
+      "report",
+      "for",
+      "Mechanical",
+      "Engineering",
+      "in",
+      "Excel",
+      "format"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Filter MECH students who know C and Prisma ORM",
+    "tokens": [
+      "Filter",
+      "MECH",
+      "students",
+      "who",
+      "know",
+      "C",
+      "and",
+      "Prisma",
+      "ORM"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "B-DEPT",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "B-SKILL",
+      "I-SKILL"
+    ]
+  },
+  {
+    "query": "Who are the top students with verified C++ skills in Electrical Engineering?",
+    "tokens": [
+      "Who",
+      "are",
+      "the",
+      "top",
+      "students",
+      "with",
+      "verified",
+      "C++",
+      "skills",
+      "in",
+      "Electrical",
+      "Engineering?"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-DEPT",
+      "I-DEPT"
+    ]
+  },
+  {
+    "query": "What are the skill gaps in MECH regarding HTML5?",
+    "tokens": [
+      "What",
+      "are",
+      "the",
+      "skill",
+      "gaps",
+      "in",
+      "MECH",
+      "regarding",
+      "HTML5?"
+    ],
+    "intent": "SKILL_GAP_ANALYSIS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-DEPT",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Filter Mechanical Engineering students who know Express.js and Agile & Scrum",
+    "tokens": [
+      "Filter",
+      "Mechanical",
+      "Engineering",
+      "students",
+      "who",
+      "know",
+      "Express.js",
+      "and",
+      "Agile",
+      "&",
+      "Scrum"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "B-SKILL",
+      "I-SKILL",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Analyze missing competencies in Java and Hugging Face Transformers",
+    "tokens": [
+      "Analyze",
+      "missing",
+      "competencies",
+      "in",
+      "Java",
+      "and",
+      "Hugging",
+      "Face",
+      "Transformers"
+    ],
+    "intent": "SKILL_GAP_ANALYSIS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "I-SKILL"
+    ]
+  },
+  {
+    "query": "Who are the top students with verified FastAPI skills in MECH?",
+    "tokens": [
+      "Who",
+      "are",
+      "the",
+      "top",
+      "students",
+      "with",
+      "verified",
+      "FastAPI",
+      "skills",
+      "in",
+      "MECH?"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-DEPT"
+    ]
+  },
+  {
+    "query": "Download verified skills report for 4th year students",
+    "tokens": [
+      "Download",
+      "verified",
+      "skills",
+      "report",
+      "for",
+      "4th",
+      "year",
+      "students"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-YEAR",
+      "I-YEAR",
+      "O"
+    ]
+  },
+  {
+    "query": "Suggest balanced team for smart city project with Linux and CSS3",
+    "tokens": [
+      "Suggest",
+      "balanced",
+      "team",
+      "for",
+      "smart",
+      "city",
+      "project",
+      "with",
+      "Linux",
+      "and",
+      "CSS3"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Show unverified claims in MECH for C++ certificates",
+    "tokens": [
+      "Show",
+      "unverified",
+      "claims",
+      "in",
+      "MECH",
+      "for",
+      "C++",
+      "certificates"
+    ],
+    "intent": "VERIFY_EVIDENCE",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-DEPT",
+      "O",
+      "B-SKILL",
+      "I-SKILL"
+    ]
+  },
+  {
+    "query": "Show leaderboard of top performers in Docker",
+    "tokens": [
+      "Show",
+      "leaderboard",
+      "of",
+      "top",
+      "performers",
+      "in",
+      "Docker"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Show me level 1 Go engineers in third year",
+    "tokens": [
+      "Show",
+      "me",
+      "level",
+      "1",
+      "Go",
+      "engineers",
+      "in",
+      "third",
+      "year"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "B-PROFICIENCY",
+      "I-PROFICIENCY",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-YEAR",
+      "I-YEAR"
+    ]
+  },
+  {
+    "query": "Who is leading in Tailwind CSS skill score at Coimbatore Institute of Technology?",
+    "tokens": [
+      "Who",
+      "is",
+      "leading",
+      "in",
+      "Tailwind",
+      "CSS",
+      "skill",
+      "score",
+      "at",
+      "Coimbatore",
+      "Institute",
+      "of",
+      "Technology?"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "O",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE"
+    ]
+  },
+  {
+    "query": "Assemble a project team with Docker frontend and Java backend",
+    "tokens": [
+      "Assemble",
+      "a",
+      "project",
+      "team",
+      "with",
+      "Docker",
+      "frontend",
+      "and",
+      "Java",
+      "backend"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-SKILL",
+      "O"
+    ]
+  },
+  {
+    "query": "Generate placement readiness summary for Thiagarajar College of Engineering on System Design",
+    "tokens": [
+      "Generate",
+      "placement",
+      "readiness",
+      "summary",
+      "for",
+      "Thiagarajar",
+      "College",
+      "of",
+      "Engineering",
+      "on",
+      "System",
+      "Design"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Generate placement readiness summary for PSG College of Technology on Google Cloud Platform",
+    "tokens": [
+      "Generate",
+      "placement",
+      "readiness",
+      "summary",
+      "for",
+      "PSG",
+      "College",
+      "of",
+      "Technology",
+      "on",
+      "Google",
+      "Cloud",
+      "Platform"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-SKILL",
+      "I-SKILL",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Generate placement readiness summary for PSG College of Technology on C",
+    "tokens": [
+      "Generate",
+      "placement",
+      "readiness",
+      "summary",
+      "for",
+      "PSG",
+      "College",
+      "of",
+      "Technology",
+      "on",
+      "C"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Generate placement readiness summary for Coimbatore Institute of Technology on Blockchain & Web3",
+    "tokens": [
+      "Generate",
+      "placement",
+      "readiness",
+      "summary",
+      "for",
+      "Coimbatore",
+      "Institute",
+      "of",
+      "Technology",
+      "on",
+      "Blockchain",
+      "&",
+      "Web3"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Show leaderboard of top performers in GraphQL",
+    "tokens": [
+      "Show",
+      "leaderboard",
+      "of",
+      "top",
+      "performers",
+      "in",
+      "GraphQL"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Find second year students proficient in C from Artificial Intelligence & Data Science",
+    "tokens": [
+      "Find",
+      "second",
+      "year",
+      "students",
+      "proficient",
+      "in",
+      "C",
+      "from",
+      "Artificial",
+      "Intelligence",
+      "&",
+      "Data",
+      "Science"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "B-YEAR",
+      "I-YEAR",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "I-DEPT",
+      "I-DEPT",
+      "I-DEPT",
+      "I-DEPT"
+    ]
+  },
+  {
+    "query": "Assemble a project team with AWS frontend and Node.js backend",
+    "tokens": [
+      "Assemble",
+      "a",
+      "project",
+      "team",
+      "with",
+      "AWS",
+      "frontend",
+      "and",
+      "Node.js",
+      "backend"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-SKILL",
+      "O"
+    ]
+  },
+  {
+    "query": "Audit pending github verification for TensorFlow projects",
+    "tokens": [
+      "Audit",
+      "pending",
+      "github",
+      "verification",
+      "for",
+      "TensorFlow",
+      "projects"
+    ],
+    "intent": "VERIFY_EVIDENCE",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O"
+    ]
+  },
+  {
+    "query": "Find first year students proficient in Git from AI&DS",
+    "tokens": [
+      "Find",
+      "first",
+      "year",
+      "students",
+      "proficient",
+      "in",
+      "Git",
+      "from",
+      "AI&DS"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "B-YEAR",
+      "I-YEAR",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-DEPT",
+      "I-DEPT"
+    ]
+  },
+  {
+    "query": "Display ranking of students based on verified React evidence in Mechanical Engineering",
+    "tokens": [
+      "Display",
+      "ranking",
+      "of",
+      "students",
+      "based",
+      "on",
+      "verified",
+      "React",
+      "evidence",
+      "in",
+      "Mechanical",
+      "Engineering"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-DEPT",
+      "I-DEPT"
+    ]
+  },
+  {
+    "query": "Show unverified claims in ECE for Blockchain & Web3 certificates",
+    "tokens": [
+      "Show",
+      "unverified",
+      "claims",
+      "in",
+      "ECE",
+      "for",
+      "Blockchain",
+      "&",
+      "Web3",
+      "certificates"
+    ],
+    "intent": "VERIFY_EVIDENCE",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-DEPT",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "I-SKILL"
+    ]
+  },
+  {
+    "query": "Show me level 3 Linux engineers in freshman",
+    "tokens": [
+      "Show",
+      "me",
+      "level",
+      "3",
+      "Linux",
+      "engineers",
+      "in",
+      "freshman"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "B-PROFICIENCY",
+      "I-PROFICIENCY",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-YEAR"
+    ]
+  },
+  {
+    "query": "Download verified skills report for senior students",
+    "tokens": [
+      "Download",
+      "verified",
+      "skills",
+      "report",
+      "for",
+      "senior",
+      "students"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-YEAR",
+      "O"
+    ]
+  },
+  {
+    "query": "Top 10 students with highest score in Redux",
+    "tokens": [
+      "Top",
+      "10",
+      "students",
+      "with",
+      "highest",
+      "score",
+      "in",
+      "Redux"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Display ranking of students based on verified Node.js evidence in Electronics and Communication",
+    "tokens": [
+      "Display",
+      "ranking",
+      "of",
+      "students",
+      "based",
+      "on",
+      "verified",
+      "Node.js",
+      "evidence",
+      "in",
+      "Electronics",
+      "and",
+      "Communication"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "I-DEPT"
+    ]
+  },
+  {
+    "query": "Compare curriculum vs market demand for Java in Mechanical Engineering",
+    "tokens": [
+      "Compare",
+      "curriculum",
+      "vs",
+      "market",
+      "demand",
+      "for",
+      "Java",
+      "in",
+      "Mechanical",
+      "Engineering"
+    ],
+    "intent": "SKILL_GAP_ANALYSIS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-DEPT",
+      "I-DEPT"
+    ]
+  },
+  {
+    "query": "Suggest balanced team for smart city project with Blockchain & Web3 and React",
+    "tokens": [
+      "Suggest",
+      "balanced",
+      "team",
+      "for",
+      "smart",
+      "city",
+      "project",
+      "with",
+      "Blockchain",
+      "&",
+      "Web3",
+      "and",
+      "React"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Download verified skills report for second year students",
+    "tokens": [
+      "Download",
+      "verified",
+      "skills",
+      "report",
+      "for",
+      "second",
+      "year",
+      "students"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-YEAR",
+      "I-YEAR",
+      "O"
+    ]
+  },
+  {
+    "query": "Show unverified claims in Electrical Engineering for System Design certificates",
+    "tokens": [
+      "Show",
+      "unverified",
+      "claims",
+      "in",
+      "Electrical",
+      "Engineering",
+      "for",
+      "System",
+      "Design",
+      "certificates"
+    ],
+    "intent": "VERIFY_EVIDENCE",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "I-SKILL",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Who are the top students with verified Django skills in Information Technology?",
+    "tokens": [
+      "Who",
+      "are",
+      "the",
+      "top",
+      "students",
+      "with",
+      "verified",
+      "Django",
+      "skills",
+      "in",
+      "Information",
+      "Technology?"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-DEPT",
+      "I-DEPT"
+    ]
+  },
+  {
+    "query": "Who is leading in System Design skill score at Thiagarajar College of Engineering?",
+    "tokens": [
+      "Who",
+      "is",
+      "leading",
+      "in",
+      "System",
+      "Design",
+      "skill",
+      "score",
+      "at",
+      "Thiagarajar",
+      "College",
+      "of",
+      "Engineering?"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "O",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE"
+    ]
+  },
+  {
+    "query": "Show skill deficit report for PostgreSQL across College of Engineering Guindy",
+    "tokens": [
+      "Show",
+      "skill",
+      "deficit",
+      "report",
+      "for",
+      "PostgreSQL",
+      "across",
+      "College",
+      "of",
+      "Engineering",
+      "Guindy"
+    ],
+    "intent": "SKILL_GAP_ANALYSIS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE"
+    ]
+  },
+  {
+    "query": "Find candidates with at least four verified skills including GraphQL",
+    "tokens": [
+      "Find",
+      "candidates",
+      "with",
+      "at",
+      "least",
+      "four",
+      "verified",
+      "skills",
+      "including",
+      "GraphQL"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MIN_VERIFIED",
+      "O",
+      "O",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Compare curriculum vs market demand for C++ in Information Technology",
+    "tokens": [
+      "Compare",
+      "curriculum",
+      "vs",
+      "market",
+      "demand",
+      "for",
+      "C++",
+      "in",
+      "Information",
+      "Technology"
+    ],
+    "intent": "SKILL_GAP_ANALYSIS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-DEPT",
+      "I-DEPT"
+    ]
+  },
+  {
+    "query": "Compare curriculum vs market demand for Prisma ORM in Artificial Intelligence & Data Science",
+    "tokens": [
+      "Compare",
+      "curriculum",
+      "vs",
+      "market",
+      "demand",
+      "for",
+      "Prisma",
+      "ORM",
+      "in",
+      "Artificial",
+      "Intelligence",
+      "&",
+      "Data",
+      "Science"
+    ],
+    "intent": "SKILL_GAP_ANALYSIS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "I-DEPT",
+      "I-DEPT",
+      "I-DEPT"
+    ]
+  },
+  {
+    "query": "Compare curriculum vs market demand for TensorFlow in Electronics and Communication",
+    "tokens": [
+      "Compare",
+      "curriculum",
+      "vs",
+      "market",
+      "demand",
+      "for",
+      "TensorFlow",
+      "in",
+      "Electronics",
+      "and",
+      "Communication"
+    ],
+    "intent": "SKILL_GAP_ANALYSIS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "I-DEPT"
+    ]
+  },
+  {
+    "query": "Generate placement readiness summary for Thiagarajar College of Engineering on PostgreSQL",
+    "tokens": [
+      "Generate",
+      "placement",
+      "readiness",
+      "summary",
+      "for",
+      "Thiagarajar",
+      "College",
+      "of",
+      "Engineering",
+      "on",
+      "PostgreSQL"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Display ranking of students based on verified MongoDB evidence in Mechanical Engineering",
+    "tokens": [
+      "Display",
+      "ranking",
+      "of",
+      "students",
+      "based",
+      "on",
+      "verified",
+      "MongoDB",
+      "evidence",
+      "in",
+      "Mechanical",
+      "Engineering"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-DEPT",
+      "I-DEPT"
+    ]
+  },
+  {
+    "query": "Who are the top students with verified TensorFlow skills in Artificial Intelligence & Data Science?",
+    "tokens": [
+      "Who",
+      "are",
+      "the",
+      "top",
+      "students",
+      "with",
+      "verified",
+      "TensorFlow",
+      "skills",
+      "in",
+      "Artificial",
+      "Intelligence",
+      "&",
+      "Data",
+      "Science?"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "I-DEPT",
+      "I-DEPT",
+      "I-DEPT"
+    ]
+  },
+  {
+    "query": "Find third year students proficient in AWS from Computer Science and Engineering",
+    "tokens": [
+      "Find",
+      "third",
+      "year",
+      "students",
+      "proficient",
+      "in",
+      "AWS",
+      "from",
+      "Computer",
+      "Science",
+      "and",
+      "Engineering"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "B-YEAR",
+      "I-YEAR",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "I-DEPT",
+      "I-DEPT",
+      "I-DEPT"
+    ]
+  },
+  {
+    "query": "Who is leading in CI/CD skill score at College of Engineering Guindy?",
+    "tokens": [
+      "Who",
+      "is",
+      "leading",
+      "in",
+      "CI/CD",
+      "skill",
+      "score",
+      "at",
+      "College",
+      "of",
+      "Engineering",
+      "Guindy?"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE"
+    ]
+  },
+  {
+    "query": "Assemble a project team with Prisma ORM frontend and Redux backend",
+    "tokens": [
+      "Assemble",
+      "a",
+      "project",
+      "team",
+      "with",
+      "Prisma",
+      "ORM",
+      "frontend",
+      "and",
+      "Redux",
+      "backend"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "O",
+      "O",
+      "B-SKILL",
+      "O"
+    ]
+  },
+  {
+    "query": "Suggest balanced team for smart city project with React Native and Kubernetes",
+    "tokens": [
+      "Suggest",
+      "balanced",
+      "team",
+      "for",
+      "smart",
+      "city",
+      "project",
+      "with",
+      "React",
+      "Native",
+      "and",
+      "Kubernetes"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Show unverified claims in Computer Science and Engineering for Rust certificates",
+    "tokens": [
+      "Show",
+      "unverified",
+      "claims",
+      "in",
+      "Computer",
+      "Science",
+      "and",
+      "Engineering",
+      "for",
+      "Rust",
+      "certificates"
+    ],
+    "intent": "VERIFY_EVIDENCE",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "I-DEPT",
+      "I-DEPT",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Export accreditation report for Computer Science and Engineering in Excel format",
+    "tokens": [
+      "Export",
+      "accreditation",
+      "report",
+      "for",
+      "Computer",
+      "Science",
+      "and",
+      "Engineering",
+      "in",
+      "Excel",
+      "format"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "I-DEPT",
+      "I-DEPT",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Download verified skills report for first year students",
+    "tokens": [
+      "Download",
+      "verified",
+      "skills",
+      "report",
+      "for",
+      "first",
+      "year",
+      "students"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-YEAR",
+      "I-YEAR",
+      "O"
+    ]
+  },
+  {
+    "query": "Filter Electrical Engineering students who know Scikit-Learn and Data Structures & Algorithms",
+    "tokens": [
+      "Filter",
+      "Electrical",
+      "Engineering",
+      "students",
+      "who",
+      "know",
+      "Scikit-Learn",
+      "and",
+      "Data",
+      "Structures",
+      "&",
+      "Algorithms"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "B-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "B-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Filter IT students who know NumPy and Kubernetes",
+    "tokens": [
+      "Filter",
+      "IT",
+      "students",
+      "who",
+      "know",
+      "NumPy",
+      "and",
+      "Kubernetes"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "B-DEPT",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "What are the skill gaps in EEE regarding React?",
+    "tokens": [
+      "What",
+      "are",
+      "the",
+      "skill",
+      "gaps",
+      "in",
+      "EEE",
+      "regarding",
+      "React?"
+    ],
+    "intent": "SKILL_GAP_ANALYSIS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-DEPT",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Compare curriculum vs market demand for Go in ECE",
+    "tokens": [
+      "Compare",
+      "curriculum",
+      "vs",
+      "market",
+      "demand",
+      "for",
+      "Go",
+      "in",
+      "ECE"
+    ],
+    "intent": "SKILL_GAP_ANALYSIS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-DEPT"
+    ]
+  },
+  {
+    "query": "Find 2nd year students proficient in React Native from MECH",
+    "tokens": [
+      "Find",
+      "2nd",
+      "year",
+      "students",
+      "proficient",
+      "in",
+      "React",
+      "Native",
+      "from",
+      "MECH"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "B-YEAR",
+      "I-YEAR",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "B-DEPT",
+      "I-DEPT"
+    ]
+  },
+  {
+    "query": "Show unverified claims in Information Technology for TypeScript certificates",
+    "tokens": [
+      "Show",
+      "unverified",
+      "claims",
+      "in",
+      "Information",
+      "Technology",
+      "for",
+      "TypeScript",
+      "certificates"
+    ],
+    "intent": "VERIFY_EVIDENCE",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Review pending evidence submissions for Google Cloud Platform",
+    "tokens": [
+      "Review",
+      "pending",
+      "evidence",
+      "submissions",
+      "for",
+      "Google",
+      "Cloud",
+      "Platform"
+    ],
+    "intent": "VERIFY_EVIDENCE",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "I-SKILL"
+    ]
+  },
+  {
+    "query": "Compare curriculum vs market demand for HTML5 in Information Technology",
+    "tokens": [
+      "Compare",
+      "curriculum",
+      "vs",
+      "market",
+      "demand",
+      "for",
+      "HTML5",
+      "in",
+      "Information",
+      "Technology"
+    ],
+    "intent": "SKILL_GAP_ANALYSIS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-DEPT",
+      "I-DEPT"
+    ]
+  },
+  {
+    "query": "Export accreditation report for Information Technology in Excel format",
+    "tokens": [
+      "Export",
+      "accreditation",
+      "report",
+      "for",
+      "Information",
+      "Technology",
+      "in",
+      "Excel",
+      "format"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Assemble a project team with SQL frontend and NumPy backend",
+    "tokens": [
+      "Assemble",
+      "a",
+      "project",
+      "team",
+      "with",
+      "SQL",
+      "frontend",
+      "and",
+      "NumPy",
+      "backend"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-SKILL",
+      "O"
+    ]
+  },
+  {
+    "query": "Suggest balanced team for smart city project with Natural Language Processing and Redux",
+    "tokens": [
+      "Suggest",
+      "balanced",
+      "team",
+      "for",
+      "smart",
+      "city",
+      "project",
+      "with",
+      "Natural",
+      "Language",
+      "Processing",
+      "and",
+      "Redux"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Assemble a project team with Spring Boot frontend and Express.js backend",
+    "tokens": [
+      "Assemble",
+      "a",
+      "project",
+      "team",
+      "with",
+      "Spring",
+      "Boot",
+      "frontend",
+      "and",
+      "Express.js",
+      "backend"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "O",
+      "O",
+      "B-SKILL",
+      "O"
+    ]
+  },
+  {
+    "query": "Who is leading in JavaScript skill score at PSG College of Technology?",
+    "tokens": [
+      "Who",
+      "is",
+      "leading",
+      "in",
+      "JavaScript",
+      "skill",
+      "score",
+      "at",
+      "PSG",
+      "College",
+      "of",
+      "Technology?"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE"
+    ]
+  },
+  {
+    "query": "Display ranking of students based on verified Data Structures & Algorithms evidence in Information Technology",
+    "tokens": [
+      "Display",
+      "ranking",
+      "of",
+      "students",
+      "based",
+      "on",
+      "verified",
+      "Data",
+      "Structures",
+      "&",
+      "Algorithms",
+      "evidence",
+      "in",
+      "Information",
+      "Technology"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "O",
+      "O",
+      "B-DEPT",
+      "I-DEPT"
+    ]
+  },
+  {
+    "query": "Find 2nd year students proficient in Java from CSE",
+    "tokens": [
+      "Find",
+      "2nd",
+      "year",
+      "students",
+      "proficient",
+      "in",
+      "Java",
+      "from",
+      "CSE"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "B-YEAR",
+      "I-YEAR",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "B-DEPT",
+      "I-DEPT"
+    ]
+  },
+  {
+    "query": "Compare curriculum vs market demand for Redux in ECE",
+    "tokens": [
+      "Compare",
+      "curriculum",
+      "vs",
+      "market",
+      "demand",
+      "for",
+      "Redux",
+      "in",
+      "ECE"
+    ],
+    "intent": "SKILL_GAP_ANALYSIS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-DEPT"
+    ]
+  },
+  {
+    "query": "Top 10 students with highest score in JavaScript",
+    "tokens": [
+      "Top",
+      "10",
+      "students",
+      "with",
+      "highest",
+      "score",
+      "in",
+      "JavaScript"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Filter Mechanical Engineering students who know React Native and Rust",
+    "tokens": [
+      "Filter",
+      "Mechanical",
+      "Engineering",
+      "students",
+      "who",
+      "know",
+      "React",
+      "Native",
+      "and",
+      "Rust"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "B-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "B-SKILL",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Top 10 students with highest score in AWS",
+    "tokens": [
+      "Top",
+      "10",
+      "students",
+      "with",
+      "highest",
+      "score",
+      "in",
+      "AWS"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Top 10 students with highest score in AWS",
+    "tokens": [
+      "Top",
+      "10",
+      "students",
+      "with",
+      "highest",
+      "score",
+      "in",
+      "AWS"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Build a team for hackathon requiring TypeScript and CI/CD",
+    "tokens": [
+      "Build",
+      "a",
+      "team",
+      "for",
+      "hackathon",
+      "requiring",
+      "TypeScript",
+      "and",
+      "CI/CD"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Download verified skills report for 4th year students",
+    "tokens": [
+      "Download",
+      "verified",
+      "skills",
+      "report",
+      "for",
+      "4th",
+      "year",
+      "students"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-YEAR",
+      "I-YEAR",
+      "O"
+    ]
+  },
+  {
+    "query": "Compare curriculum vs market demand for C++ in Electrical Engineering",
+    "tokens": [
+      "Compare",
+      "curriculum",
+      "vs",
+      "market",
+      "demand",
+      "for",
+      "C++",
+      "in",
+      "Electrical",
+      "Engineering"
+    ],
+    "intent": "SKILL_GAP_ANALYSIS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-DEPT",
+      "I-DEPT"
+    ]
+  },
+  {
+    "query": "Review pending evidence submissions for C++",
+    "tokens": [
+      "Review",
+      "pending",
+      "evidence",
+      "submissions",
+      "for",
+      "C++"
+    ],
+    "intent": "VERIFY_EVIDENCE",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Build a team for hackathon requiring Redux and JavaScript",
+    "tokens": [
+      "Build",
+      "a",
+      "team",
+      "for",
+      "hackathon",
+      "requiring",
+      "Redux",
+      "and",
+      "JavaScript"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Find candidates with at least 3 verified skills including Java",
+    "tokens": [
+      "Find",
+      "candidates",
+      "with",
+      "at",
+      "least",
+      "3",
+      "verified",
+      "skills",
+      "including",
+      "Java"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MIN_VERIFIED",
+      "O",
+      "O",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Download verified skills report for freshman students",
+    "tokens": [
+      "Download",
+      "verified",
+      "skills",
+      "report",
+      "for",
+      "freshman",
+      "students"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-YEAR",
+      "O"
+    ]
+  },
+  {
+    "query": "Who is leading in Hugging Face Transformers skill score at Government College of Technology?",
+    "tokens": [
+      "Who",
+      "is",
+      "leading",
+      "in",
+      "Hugging",
+      "Face",
+      "Transformers",
+      "skill",
+      "score",
+      "at",
+      "Government",
+      "College",
+      "of",
+      "Technology?"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "O",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE"
+    ]
+  },
+  {
+    "query": "Export accreditation report for Electrical Engineering in Excel format",
+    "tokens": [
+      "Export",
+      "accreditation",
+      "report",
+      "for",
+      "Electrical",
+      "Engineering",
+      "in",
+      "Excel",
+      "format"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Display ranking of students based on verified Java evidence in Artificial Intelligence & Data Science",
+    "tokens": [
+      "Display",
+      "ranking",
+      "of",
+      "students",
+      "based",
+      "on",
+      "verified",
+      "Java",
+      "evidence",
+      "in",
+      "Artificial",
+      "Intelligence",
+      "&",
+      "Data",
+      "Science"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "I-DEPT",
+      "I-DEPT",
+      "I-DEPT"
+    ]
+  },
+  {
+    "query": "Review pending evidence submissions for Microsoft Azure",
+    "tokens": [
+      "Review",
+      "pending",
+      "evidence",
+      "submissions",
+      "for",
+      "Microsoft",
+      "Azure"
+    ],
+    "intent": "VERIFY_EVIDENCE",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL"
+    ]
+  },
+  {
+    "query": "Build a team for hackathon requiring TensorFlow and PyTorch",
+    "tokens": [
+      "Build",
+      "a",
+      "team",
+      "for",
+      "hackathon",
+      "requiring",
+      "TensorFlow",
+      "and",
+      "PyTorch"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Show me level 1 HTML5 engineers in senior",
+    "tokens": [
+      "Show",
+      "me",
+      "level",
+      "1",
+      "HTML5",
+      "engineers",
+      "in",
+      "senior"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "B-PROFICIENCY",
+      "I-PROFICIENCY",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-YEAR"
+    ]
+  },
+  {
+    "query": "Export accreditation report for Mechanical Engineering in Excel format",
+    "tokens": [
+      "Export",
+      "accreditation",
+      "report",
+      "for",
+      "Mechanical",
+      "Engineering",
+      "in",
+      "Excel",
+      "format"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Audit pending github verification for Computer Vision projects",
+    "tokens": [
+      "Audit",
+      "pending",
+      "github",
+      "verification",
+      "for",
+      "Computer",
+      "Vision",
+      "projects"
+    ],
+    "intent": "VERIFY_EVIDENCE",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "O"
+    ]
+  },
+  {
+    "query": "Find sophomore students proficient in AWS from Mechanical Engineering",
+    "tokens": [
+      "Find",
+      "sophomore",
+      "students",
+      "proficient",
+      "in",
+      "AWS",
+      "from",
+      "Mechanical",
+      "Engineering"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "B-YEAR",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "I-DEPT"
+    ]
+  },
+  {
+    "query": "Assemble a project team with JavaScript frontend and Redux backend",
+    "tokens": [
+      "Assemble",
+      "a",
+      "project",
+      "team",
+      "with",
+      "JavaScript",
+      "frontend",
+      "and",
+      "Redux",
+      "backend"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-SKILL",
+      "O"
+    ]
+  },
+  {
+    "query": "Audit pending github verification for Agile & Scrum projects",
+    "tokens": [
+      "Audit",
+      "pending",
+      "github",
+      "verification",
+      "for",
+      "Agile",
+      "&",
+      "Scrum",
+      "projects"
+    ],
+    "intent": "VERIFY_EVIDENCE",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "O"
+    ]
+  },
+  {
+    "query": "Generate placement readiness summary for Coimbatore Institute of Technology on CI/CD",
+    "tokens": [
+      "Generate",
+      "placement",
+      "readiness",
+      "summary",
+      "for",
+      "Coimbatore",
+      "Institute",
+      "of",
+      "Technology",
+      "on",
+      "CI/CD"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Assemble a project team with Java frontend and TensorFlow backend",
+    "tokens": [
+      "Assemble",
+      "a",
+      "project",
+      "team",
+      "with",
+      "Java",
+      "frontend",
+      "and",
+      "TensorFlow",
+      "backend"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-SKILL",
+      "O"
+    ]
+  },
+  {
+    "query": "Who are the top students with verified C++ skills in EEE?",
+    "tokens": [
+      "Who",
+      "are",
+      "the",
+      "top",
+      "students",
+      "with",
+      "verified",
+      "C++",
+      "skills",
+      "in",
+      "EEE?"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-DEPT"
+    ]
+  },
+  {
+    "query": "Review pending evidence submissions for Next.js",
+    "tokens": [
+      "Review",
+      "pending",
+      "evidence",
+      "submissions",
+      "for",
+      "Next.js"
+    ],
+    "intent": "VERIFY_EVIDENCE",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Review pending evidence submissions for C++",
+    "tokens": [
+      "Review",
+      "pending",
+      "evidence",
+      "submissions",
+      "for",
+      "C++"
+    ],
+    "intent": "VERIFY_EVIDENCE",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Show me intermediate Next.js engineers in first year",
+    "tokens": [
+      "Show",
+      "me",
+      "intermediate",
+      "Next.js",
+      "engineers",
+      "in",
+      "first",
+      "year"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "B-PROFICIENCY",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-YEAR",
+      "I-YEAR"
+    ]
+  },
+  {
+    "query": "Search for TypeScript and SQL developers in SSN College of Engineering",
+    "tokens": [
+      "Search",
+      "for",
+      "TypeScript",
+      "and",
+      "SQL",
+      "developers",
+      "in",
+      "SSN",
+      "College",
+      "of",
+      "Engineering"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE"
+    ]
+  },
+  {
+    "query": "Build a team for hackathon requiring Data Structures & Algorithms and Vue.js",
+    "tokens": [
+      "Build",
+      "a",
+      "team",
+      "for",
+      "hackathon",
+      "requiring",
+      "Data",
+      "Structures",
+      "&",
+      "Algorithms",
+      "and",
+      "Vue.js"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Review pending evidence submissions for C++",
+    "tokens": [
+      "Review",
+      "pending",
+      "evidence",
+      "submissions",
+      "for",
+      "C++"
+    ],
+    "intent": "VERIFY_EVIDENCE",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Top 10 students with highest score in FastAPI",
+    "tokens": [
+      "Top",
+      "10",
+      "students",
+      "with",
+      "highest",
+      "score",
+      "in",
+      "FastAPI"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Who is leading in Git skill score at College of Engineering Guindy?",
+    "tokens": [
+      "Who",
+      "is",
+      "leading",
+      "in",
+      "Git",
+      "skill",
+      "score",
+      "at",
+      "College",
+      "of",
+      "Engineering",
+      "Guindy?"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE"
+    ]
+  },
+  {
+    "query": "Audit pending github verification for React Native projects",
+    "tokens": [
+      "Audit",
+      "pending",
+      "github",
+      "verification",
+      "for",
+      "React",
+      "Native",
+      "projects"
+    ],
+    "intent": "VERIFY_EVIDENCE",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "O"
+    ]
+  },
+  {
+    "query": "Show leaderboard of top performers in TypeScript",
+    "tokens": [
+      "Show",
+      "leaderboard",
+      "of",
+      "top",
+      "performers",
+      "in",
+      "TypeScript"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Form a team of 2nd year students with Agile & Scrum and Cybersecurity capabilities",
+    "tokens": [
+      "Form",
+      "a",
+      "team",
+      "of",
+      "2nd",
+      "year",
+      "students",
+      "with",
+      "Agile",
+      "&",
+      "Scrum",
+      "and",
+      "Cybersecurity",
+      "capabilities"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-YEAR",
+      "I-YEAR",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "B-SKILL",
+      "I-SKILL",
+      "O"
+    ]
+  },
+  {
+    "query": "Download verified skills report for sophomore students",
+    "tokens": [
+      "Download",
+      "verified",
+      "skills",
+      "report",
+      "for",
+      "sophomore",
+      "students"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-YEAR",
+      "O"
+    ]
+  },
+  {
+    "query": "Analyze missing competencies in Blockchain & Web3 and MongoDB",
+    "tokens": [
+      "Analyze",
+      "missing",
+      "competencies",
+      "in",
+      "Blockchain",
+      "&",
+      "Web3",
+      "and",
+      "MongoDB"
+    ],
+    "intent": "SKILL_GAP_ANALYSIS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "What are the skill gaps in EEE regarding Blockchain & Web3?",
+    "tokens": [
+      "What",
+      "are",
+      "the",
+      "skill",
+      "gaps",
+      "in",
+      "EEE",
+      "regarding",
+      "Blockchain",
+      "&",
+      "Web3?"
+    ],
+    "intent": "SKILL_GAP_ANALYSIS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-DEPT",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "I-SKILL"
+    ]
+  },
+  {
+    "query": "Filter Artificial Intelligence & Data Science students who know GraphQL and Microsoft Azure",
+    "tokens": [
+      "Filter",
+      "Artificial",
+      "Intelligence",
+      "&",
+      "Data",
+      "Science",
+      "students",
+      "who",
+      "know",
+      "GraphQL",
+      "and",
+      "Microsoft",
+      "Azure"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "I-DEPT",
+      "I-DEPT",
+      "I-DEPT",
+      "I-SKILL",
+      "I-SKILL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Download verified skills report for senior students",
+    "tokens": [
+      "Download",
+      "verified",
+      "skills",
+      "report",
+      "for",
+      "senior",
+      "students"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-YEAR",
+      "O"
+    ]
+  },
+  {
+    "query": "Generate placement readiness summary for PSG College of Technology on Data Structures & Algorithms",
+    "tokens": [
+      "Generate",
+      "placement",
+      "readiness",
+      "summary",
+      "for",
+      "PSG",
+      "College",
+      "of",
+      "Technology",
+      "on",
+      "Data",
+      "Structures",
+      "&",
+      "Algorithms"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Show me expert Spring Boot engineers in 2nd year",
+    "tokens": [
+      "Show",
+      "me",
+      "expert",
+      "Spring",
+      "Boot",
+      "engineers",
+      "in",
+      "2nd",
+      "year"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "B-PROFICIENCY",
+      "B-SKILL",
+      "I-SKILL",
+      "O",
+      "O",
+      "B-YEAR",
+      "I-YEAR"
+    ]
+  },
+  {
+    "query": "Filter AI&DS students who know Express.js and Next.js",
+    "tokens": [
+      "Filter",
+      "AI&DS",
+      "students",
+      "who",
+      "know",
+      "Express.js",
+      "and",
+      "Next.js"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "B-DEPT",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Show skill deficit report for PostgreSQL across College of Engineering Guindy",
+    "tokens": [
+      "Show",
+      "skill",
+      "deficit",
+      "report",
+      "for",
+      "PostgreSQL",
+      "across",
+      "College",
+      "of",
+      "Engineering",
+      "Guindy"
+    ],
+    "intent": "SKILL_GAP_ANALYSIS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE"
+    ]
+  },
+  {
+    "query": "Who is leading in Rust skill score at Coimbatore Institute of Technology?",
+    "tokens": [
+      "Who",
+      "is",
+      "leading",
+      "in",
+      "Rust",
+      "skill",
+      "score",
+      "at",
+      "Coimbatore",
+      "Institute",
+      "of",
+      "Technology?"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE"
+    ]
+  },
+  {
+    "query": "Download verified skills report for junior students",
+    "tokens": [
+      "Download",
+      "verified",
+      "skills",
+      "report",
+      "for",
+      "junior",
+      "students"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-YEAR",
+      "O"
+    ]
+  },
+  {
+    "query": "Display ranking of students based on verified CSS3 evidence in Computer Science and Engineering",
+    "tokens": [
+      "Display",
+      "ranking",
+      "of",
+      "students",
+      "based",
+      "on",
+      "verified",
+      "CSS3",
+      "evidence",
+      "in",
+      "Computer",
+      "Science",
+      "and",
+      "Engineering"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "I-DEPT",
+      "I-DEPT"
+    ]
+  },
+  {
+    "query": "Export accreditation report for Information Technology in Excel format",
+    "tokens": [
+      "Export",
+      "accreditation",
+      "report",
+      "for",
+      "Information",
+      "Technology",
+      "in",
+      "Excel",
+      "format"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Find candidates with at least 3 verified skills including Prisma ORM",
+    "tokens": [
+      "Find",
+      "candidates",
+      "with",
+      "at",
+      "least",
+      "3",
+      "verified",
+      "skills",
+      "including",
+      "Prisma",
+      "ORM"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MIN_VERIFIED",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL"
+    ]
+  },
+  {
+    "query": "Form a team of 3rd year students with Hugging Face Transformers and Pandas capabilities",
+    "tokens": [
+      "Form",
+      "a",
+      "team",
+      "of",
+      "3rd",
+      "year",
+      "students",
+      "with",
+      "Hugging",
+      "Face",
+      "Transformers",
+      "and",
+      "Pandas",
+      "capabilities"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-YEAR",
+      "I-YEAR",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "B-SKILL",
+      "I-SKILL",
+      "O"
+    ]
+  },
+  {
+    "query": "Analyze missing competencies in Docker and CSS3",
+    "tokens": [
+      "Analyze",
+      "missing",
+      "competencies",
+      "in",
+      "Docker",
+      "and",
+      "CSS3"
+    ],
+    "intent": "SKILL_GAP_ANALYSIS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Download verified skills report for 3rd year students",
+    "tokens": [
+      "Download",
+      "verified",
+      "skills",
+      "report",
+      "for",
+      "3rd",
+      "year",
+      "students"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-YEAR",
+      "I-YEAR",
+      "O"
+    ]
+  },
+  {
+    "query": "Analyze missing competencies in Google Cloud Platform and PostgreSQL",
+    "tokens": [
+      "Analyze",
+      "missing",
+      "competencies",
+      "in",
+      "Google",
+      "Cloud",
+      "Platform",
+      "and",
+      "PostgreSQL"
+    ],
+    "intent": "SKILL_GAP_ANALYSIS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Find candidates with at least two verified skills including Natural Language Processing",
+    "tokens": [
+      "Find",
+      "candidates",
+      "with",
+      "at",
+      "least",
+      "two",
+      "verified",
+      "skills",
+      "including",
+      "Natural",
+      "Language",
+      "Processing"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MIN_VERIFIED",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "I-SKILL"
+    ]
+  },
+  {
+    "query": "Build a team for hackathon requiring Natural Language Processing and Redux",
+    "tokens": [
+      "Build",
+      "a",
+      "team",
+      "for",
+      "hackathon",
+      "requiring",
+      "Natural",
+      "Language",
+      "Processing",
+      "and",
+      "Redux"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Who is leading in Next.js skill score at Government College of Technology?",
+    "tokens": [
+      "Who",
+      "is",
+      "leading",
+      "in",
+      "Next.js",
+      "skill",
+      "score",
+      "at",
+      "Government",
+      "College",
+      "of",
+      "Technology?"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE"
+    ]
+  },
+  {
+    "query": "Filter AI&DS students who know React Native and TypeScript",
+    "tokens": [
+      "Filter",
+      "AI&DS",
+      "students",
+      "who",
+      "know",
+      "React",
+      "Native",
+      "and",
+      "TypeScript"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "B-DEPT",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Assemble a project team with Data Structures & Algorithms frontend and Cybersecurity backend",
+    "tokens": [
+      "Assemble",
+      "a",
+      "project",
+      "team",
+      "with",
+      "Data",
+      "Structures",
+      "&",
+      "Algorithms",
+      "frontend",
+      "and",
+      "Cybersecurity",
+      "backend"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "O",
+      "O",
+      "B-SKILL",
+      "O"
+    ]
+  },
+  {
+    "query": "Analyze missing competencies in Tailwind CSS and System Design",
+    "tokens": [
+      "Analyze",
+      "missing",
+      "competencies",
+      "in",
+      "Tailwind",
+      "CSS",
+      "and",
+      "System",
+      "Design"
+    ],
+    "intent": "SKILL_GAP_ANALYSIS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "O",
+      "B-SKILL",
+      "I-SKILL"
+    ]
+  },
+  {
+    "query": "Suggest balanced team for smart city project with Microsoft Azure and Next.js",
+    "tokens": [
+      "Suggest",
+      "balanced",
+      "team",
+      "for",
+      "smart",
+      "city",
+      "project",
+      "with",
+      "Microsoft",
+      "Azure",
+      "and",
+      "Next.js"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Download verified skills report for third year students",
+    "tokens": [
+      "Download",
+      "verified",
+      "skills",
+      "report",
+      "for",
+      "third",
+      "year",
+      "students"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-YEAR",
+      "I-YEAR",
+      "O"
+    ]
+  },
+  {
+    "query": "Form a team of 2nd year students with AWS and Redux capabilities",
+    "tokens": [
+      "Form",
+      "a",
+      "team",
+      "of",
+      "2nd",
+      "year",
+      "students",
+      "with",
+      "AWS",
+      "and",
+      "Redux",
+      "capabilities"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-YEAR",
+      "I-YEAR",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "B-SKILL",
+      "I-SKILL",
+      "O"
+    ]
+  },
+  {
+    "query": "Suggest balanced team for smart city project with System Design and Linux",
+    "tokens": [
+      "Suggest",
+      "balanced",
+      "team",
+      "for",
+      "smart",
+      "city",
+      "project",
+      "with",
+      "System",
+      "Design",
+      "and",
+      "Linux"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Assemble a project team with Redis frontend and Data Structures & Algorithms backend",
+    "tokens": [
+      "Assemble",
+      "a",
+      "project",
+      "team",
+      "with",
+      "Redis",
+      "frontend",
+      "and",
+      "Data",
+      "Structures",
+      "&",
+      "Algorithms",
+      "backend"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "O"
+    ]
+  },
+  {
+    "query": "Suggest balanced team for smart city project with Kubernetes and AWS",
+    "tokens": [
+      "Suggest",
+      "balanced",
+      "team",
+      "for",
+      "smart",
+      "city",
+      "project",
+      "with",
+      "Kubernetes",
+      "and",
+      "AWS"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Form a team of 3rd year students with Git and JavaScript capabilities",
+    "tokens": [
+      "Form",
+      "a",
+      "team",
+      "of",
+      "3rd",
+      "year",
+      "students",
+      "with",
+      "Git",
+      "and",
+      "JavaScript",
+      "capabilities"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-YEAR",
+      "I-YEAR",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "B-SKILL",
+      "I-SKILL",
+      "O"
+    ]
+  },
+  {
+    "query": "Find candidates with at least 3 verified skills including Go",
+    "tokens": [
+      "Find",
+      "candidates",
+      "with",
+      "at",
+      "least",
+      "3",
+      "verified",
+      "skills",
+      "including",
+      "Go"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MIN_VERIFIED",
+      "O",
+      "O",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Find candidates with at least four verified skills including Microsoft Azure",
+    "tokens": [
+      "Find",
+      "candidates",
+      "with",
+      "at",
+      "least",
+      "four",
+      "verified",
+      "skills",
+      "including",
+      "Microsoft",
+      "Azure"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MIN_VERIFIED",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL"
+    ]
+  },
+  {
+    "query": "Review pending evidence submissions for Docker",
+    "tokens": [
+      "Review",
+      "pending",
+      "evidence",
+      "submissions",
+      "for",
+      "Docker"
+    ],
+    "intent": "VERIFY_EVIDENCE",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Build a team for hackathon requiring JavaScript and Kubernetes",
+    "tokens": [
+      "Build",
+      "a",
+      "team",
+      "for",
+      "hackathon",
+      "requiring",
+      "JavaScript",
+      "and",
+      "Kubernetes"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Search for Blockchain & Web3 and FastAPI developers in SSN College of Engineering",
+    "tokens": [
+      "Search",
+      "for",
+      "Blockchain",
+      "&",
+      "Web3",
+      "and",
+      "FastAPI",
+      "developers",
+      "in",
+      "SSN",
+      "College",
+      "of",
+      "Engineering"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE"
+    ]
+  },
+  {
+    "query": "Find candidates with at least 5 verified skills including TypeScript",
+    "tokens": [
+      "Find",
+      "candidates",
+      "with",
+      "at",
+      "least",
+      "5",
+      "verified",
+      "skills",
+      "including",
+      "TypeScript"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MIN_VERIFIED",
+      "O",
+      "O",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "What are the skill gaps in AI&DS regarding Python?",
+    "tokens": [
+      "What",
+      "are",
+      "the",
+      "skill",
+      "gaps",
+      "in",
+      "AI&DS",
+      "regarding",
+      "Python?"
+    ],
+    "intent": "SKILL_GAP_ANALYSIS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-DEPT",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Form a team of 2nd year students with Agile & Scrum and MongoDB capabilities",
+    "tokens": [
+      "Form",
+      "a",
+      "team",
+      "of",
+      "2nd",
+      "year",
+      "students",
+      "with",
+      "Agile",
+      "&",
+      "Scrum",
+      "and",
+      "MongoDB",
+      "capabilities"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-YEAR",
+      "I-YEAR",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "B-SKILL",
+      "I-SKILL",
+      "O"
+    ]
+  },
+  {
+    "query": "Assemble a project team with Scikit-Learn frontend and Tailwind CSS backend",
+    "tokens": [
+      "Assemble",
+      "a",
+      "project",
+      "team",
+      "with",
+      "Scikit-Learn",
+      "frontend",
+      "and",
+      "Tailwind",
+      "CSS",
+      "backend"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "O"
+    ]
+  },
+  {
+    "query": "Export accreditation report for Mechanical Engineering in Excel format",
+    "tokens": [
+      "Export",
+      "accreditation",
+      "report",
+      "for",
+      "Mechanical",
+      "Engineering",
+      "in",
+      "Excel",
+      "format"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Filter Mechanical Engineering students who know Cybersecurity and C",
+    "tokens": [
+      "Filter",
+      "Mechanical",
+      "Engineering",
+      "students",
+      "who",
+      "know",
+      "Cybersecurity",
+      "and",
+      "C"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "B-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "B-SKILL",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "query": "Generate placement readiness summary for PSG College of Technology on Natural Language Processing",
+    "tokens": [
+      "Generate",
+      "placement",
+      "readiness",
+      "summary",
+      "for",
+      "PSG",
+      "College",
+      "of",
+      "Technology",
+      "on",
+      "Natural",
+      "Language",
+      "Processing"
+    ],
+    "intent": "EXPORT_REPORT",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "O"
+    ]
+  },
+  {
+    "query": "Show skill deficit report for Flutter across SSN College of Engineering",
+    "tokens": [
+      "Show",
+      "skill",
+      "deficit",
+      "report",
+      "for",
+      "Flutter",
+      "across",
+      "SSN",
+      "College",
+      "of",
+      "Engineering"
+    ],
+    "intent": "SKILL_GAP_ANALYSIS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE"
+    ]
+  },
+  {
+    "query": "Audit pending github verification for FastAPI projects",
+    "tokens": [
+      "Audit",
+      "pending",
+      "github",
+      "verification",
+      "for",
+      "FastAPI",
+      "projects"
+    ],
+    "intent": "VERIFY_EVIDENCE",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O"
+    ]
+  },
+  {
+    "query": "Find 4th year students proficient in Cybersecurity from EEE",
+    "tokens": [
+      "Find",
+      "4th",
+      "year",
+      "students",
+      "proficient",
+      "in",
+      "Cybersecurity",
+      "from",
+      "EEE"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "B-YEAR",
+      "I-YEAR",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "B-DEPT",
+      "I-DEPT"
+    ]
+  },
+  {
+    "query": "Compare curriculum vs market demand for Node.js in Information Technology",
+    "tokens": [
+      "Compare",
+      "curriculum",
+      "vs",
+      "market",
+      "demand",
+      "for",
+      "Node.js",
+      "in",
+      "Information",
+      "Technology"
+    ],
+    "intent": "SKILL_GAP_ANALYSIS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-DEPT",
+      "I-DEPT"
+    ]
+  },
+  {
+    "query": "Find candidates with at least four verified skills including Next.js",
+    "tokens": [
+      "Find",
+      "candidates",
+      "with",
+      "at",
+      "least",
+      "four",
+      "verified",
+      "skills",
+      "including",
+      "Next.js"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MIN_VERIFIED",
+      "O",
+      "O",
+      "O",
+      "B-SKILL"
+    ]
+  },
+  {
+    "query": "Compare curriculum vs market demand for Microsoft Azure in Computer Science and Engineering",
+    "tokens": [
+      "Compare",
+      "curriculum",
+      "vs",
+      "market",
+      "demand",
+      "for",
+      "Microsoft",
+      "Azure",
+      "in",
+      "Computer",
+      "Science",
+      "and",
+      "Engineering"
+    ],
+    "intent": "SKILL_GAP_ANALYSIS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "I-DEPT",
+      "I-DEPT"
+    ]
+  },
+  {
+    "query": "Who are the top students with verified React skills in AI&DS?",
+    "tokens": [
+      "Who",
+      "are",
+      "the",
+      "top",
+      "students",
+      "with",
+      "verified",
+      "React",
+      "skills",
+      "in",
+      "AI&DS?"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-DEPT"
+    ]
+  },
+  {
+    "query": "Display ranking of students based on verified Go evidence in Information Technology",
+    "tokens": [
+      "Display",
+      "ranking",
+      "of",
+      "students",
+      "based",
+      "on",
+      "verified",
+      "Go",
+      "evidence",
+      "in",
+      "Information",
+      "Technology"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-DEPT",
+      "I-DEPT"
+    ]
+  },
+  {
+    "query": "Who is leading in GraphQL skill score at PSG College of Technology?",
+    "tokens": [
+      "Who",
+      "is",
+      "leading",
+      "in",
+      "GraphQL",
+      "skill",
+      "score",
+      "at",
+      "PSG",
+      "College",
+      "of",
+      "Technology?"
+    ],
+    "intent": "LEADERBOARD",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE"
+    ]
+  },
+  {
+    "query": "Search for Tailwind CSS and TypeScript developers in College of Engineering Guindy",
+    "tokens": [
+      "Search",
+      "for",
+      "Tailwind",
+      "CSS",
+      "and",
+      "TypeScript",
+      "developers",
+      "in",
+      "College",
+      "of",
+      "Engineering",
+      "Guindy"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE"
+    ]
+  },
+  {
+    "query": "Who are the top students with verified SQL skills in Electronics and Communication?",
+    "tokens": [
+      "Who",
+      "are",
+      "the",
+      "top",
+      "students",
+      "with",
+      "verified",
+      "SQL",
+      "skills",
+      "in",
+      "Electronics",
+      "and",
+      "Communication?"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-DEPT",
+      "I-DEPT",
+      "I-DEPT"
+    ]
+  },
+  {
+    "query": "Audit pending github verification for TensorFlow projects",
+    "tokens": [
+      "Audit",
+      "pending",
+      "github",
+      "verification",
+      "for",
+      "TensorFlow",
+      "projects"
+    ],
+    "intent": "VERIFY_EVIDENCE",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "O"
+    ]
+  },
+  {
+    "query": "Search for Vue.js and Pandas developers in Thiagarajar College of Engineering",
+    "tokens": [
+      "Search",
+      "for",
+      "Vue.js",
+      "and",
+      "Pandas",
+      "developers",
+      "in",
+      "Thiagarajar",
+      "College",
+      "of",
+      "Engineering"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE"
+    ]
+  },
+  {
+    "query": "Audit pending github verification for Spring Boot projects",
+    "tokens": [
+      "Audit",
+      "pending",
+      "github",
+      "verification",
+      "for",
+      "Spring",
+      "Boot",
+      "projects"
+    ],
+    "intent": "VERIFY_EVIDENCE",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "O"
+    ]
+  },
+  {
+    "query": "Search for Kubernetes and Next.js developers in PSG College of Technology",
+    "tokens": [
+      "Search",
+      "for",
+      "Kubernetes",
+      "and",
+      "Next.js",
+      "developers",
+      "in",
+      "PSG",
+      "College",
+      "of",
+      "Technology"
+    ],
+    "intent": "FIND_STUDENTS",
+    "slots": [
+      "O",
+      "O",
+      "B-SKILL",
+      "O",
+      "B-SKILL",
+      "O",
+      "O",
+      "B-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE",
+      "I-COLLEGE"
+    ]
+  },
+  {
+    "query": "Form a team of first year students with System Design and Hugging Face Transformers capabilities",
+    "tokens": [
+      "Form",
+      "a",
+      "team",
+      "of",
+      "first",
+      "year",
+      "students",
+      "with",
+      "System",
+      "Design",
+      "and",
+      "Hugging",
+      "Face",
+      "Transformers",
+      "capabilities"
+    ],
+    "intent": "FIND_TEAMS",
+    "slots": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-YEAR",
+      "I-YEAR",
+      "O",
+      "B-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "B-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "I-SKILL",
+      "O"
+    ]
+  }
+]

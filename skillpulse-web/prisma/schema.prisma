@@ -1,0 +1,228 @@
+// SkillPulse Talent Intelligence Platform Database Schema
+// SQLite (Zero-Config Local) / PostgreSQL Ready
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model University {
+  id          String    @id @default(cuid())
+  name        String
+  code        String    @unique
+  state       String
+  country     String    @default("India")
+  colleges    College[]
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+}
+
+model College {
+  id              String         @id @default(cuid())
+  universityId    String
+  university      University     @relation(fields: [universityId], references: [id])
+  name            String
+  code            String         @unique
+  city            String
+  state           String
+  tier            Int            @default(1)
+  accreditation   String?        // e.g. NAAC A++, NBA
+  departments     Department[]
+  users           User[]
+  createdAt       DateTime       @default(now())
+  updatedAt       DateTime       @updatedAt
+}
+
+model Department {
+  id          String     @id @default(cuid())
+  collegeId   String
+  college     College    @relation(fields: [collegeId], references: [id])
+  name        String     // e.g. Computer Science and Engineering
+  code        String     // e.g. CSE
+  programs    Program[]
+  users       User[]
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+
+  @@unique([collegeId, code])
+}
+
+model Program {
+  id             String         @id @default(cuid())
+  departmentId   String
+  department     Department     @relation(fields: [departmentId], references: [id])
+  name           String         // e.g. B.E. Computer Science and Engineering
+  degree         String         // B.E., B.Tech, M.E., M.Tech, Ph.D.
+  durationYears  Int            @default(4)
+  students       StudentProfile[]
+  createdAt      DateTime       @default(now())
+  updatedAt      DateTime       @updatedAt
+}
+
+model User {
+  id              String            @id @default(cuid())
+  email           String            @unique
+  passwordHash    String
+  name            String
+  role            String            @default("STUDENT") // SYSTEM_ADMIN, UNIVERSITY_ADMIN, COLLEGE_ADMIN, DEPT_HEAD, FACULTY, STUDENT, RECRUITER
+  collegeId       String?
+  college         College?          @relation(fields: [collegeId], references: [id])
+  departmentId    String?
+  department      Department?       @relation(fields: [departmentId], references: [id])
+  avatarUrl       String?
+  isActive        Boolean           @default(true)
+  studentProfile  StudentProfile?
+  reviewsGiven    EvidenceReview[]
+  auditLogs       AuditLog[]
+  searchQueries   SearchQuery[]
+  createdAt       DateTime          @default(now())
+  updatedAt       DateTime          @updatedAt
+}
+
+model StudentProfile {
+  id                  String         @id @default(cuid())
+  userId              String         @unique
+  user                User           @relation(fields: [userId], references: [id], onDelete: Cascade)
+  programId           String?
+  program             Program?       @relation(fields: [programId], references: [id])
+  rollNumber          String         @unique
+  batchYear           Int            // e.g. 2026
+  currentSemester     Int            @default(1)
+  cgpa                Float?
+  githubUsername      String?
+  linkedinUrl         String?
+  portfolioUrl        String?
+  bio                 String?
+  verifiedSkillsCount Int            @default(0)
+  totalSkillsCount    Int            @default(0)
+  completenessScore   Float          @default(0.0) // 0 - 100
+  skills              StudentSkill[]
+  createdAt           DateTime       @default(now())
+  updatedAt           DateTime       @updatedAt
+}
+
+model Skill {
+  id              String         @id @default(cuid())
+  code            String         @unique // e.g. py-001, react-010
+  name            String         @unique // Canonical name: Python, React
+  domain          String         // e.g. Programming Languages, AI & Machine Learning
+  category        String         // e.g. Languages, Deep Learning
+  description     String?
+  isCanonical     Boolean        @default(true)
+  aliases         SkillAlias[]
+  studentSkills   StudentSkill[]
+  createdAt       DateTime       @default(now())
+  updatedAt       DateTime       @updatedAt
+}
+
+model SkillAlias {
+  id              String   @id @default(cuid())
+  skillId         String
+  skill           Skill    @relation(fields: [skillId], references: [id], onDelete: Cascade)
+  alias           String
+  normalizedAlias String
+
+  @@unique([skillId, normalizedAlias])
+}
+
+model StudentSkill {
+  id                 String             @id @default(cuid())
+  studentId          String
+  student            StudentProfile     @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  skillId            String
+  skill              Skill              @relation(fields: [skillId], references: [id])
+  proficiency        String             @default("BEGINNER") // BEGINNER, INTERMEDIATE, ADVANCED, EXPERT
+  score              Float              @default(50.0)       // 0 - 100
+  status             String             @default("UNVERIFIED") // UNVERIFIED, PENDING_REVIEW, VERIFIED, REJECTED, FLAGGED
+  provenanceScore    Float              @default(0.0)        // 0 - 1.0 confidence
+  lastVerifiedAt     DateTime?
+  evidences          Evidence[]
+  createdAt          DateTime           @default(now())
+  updatedAt          DateTime           @updatedAt
+
+  @@unique([studentId, skillId])
+}
+
+model Evidence {
+  id                 String             @id @default(cuid())
+  studentSkillId     String
+  studentSkill       StudentSkill       @relation(fields: [studentSkillId], references: [id], onDelete: Cascade)
+  evidenceType       String             // CERTIFICATE, GITHUB_REPO, PULL_REQUEST, HACKATHON_PROJECT, COURSE_COMPLETION, COMPETITIVE_PROGRAMMING, RESEARCH_PAPER, FACULTY_ENDORSEMENT
+  title              String
+  description        String?
+  url                String?
+  issuer             String?            // e.g. Coursera, AWS, LeetCode
+  issueDate          DateTime?
+  credentialId       String?
+  metadata           String?            // JSON string: Extracted entities, repo commit count, stars, PR numbers
+  status             String             @default("SUBMITTED") // SUBMITTED, UNDER_REVIEW, APPROVED, REJECTED, FLAGGED
+  provenanceScore    Float              @default(0.0)
+  reviewNotes        String?
+  reviews            EvidenceReview[]
+  createdAt          DateTime           @default(now())
+  updatedAt          DateTime           @updatedAt
+}
+
+model EvidenceReview {
+  id          String         @id @default(cuid())
+  evidenceId  String
+  evidence    Evidence       @relation(fields: [evidenceId], references: [id], onDelete: Cascade)
+  reviewerId  String
+  reviewer    User           @relation(fields: [reviewerId], references: [id])
+  action      String         // APPROVE, REJECT, REQUEST_CHANGES, FLAG
+  feedback    String?
+  rubricScore Float?         // 0 - 100
+  createdAt   DateTime       @default(now())
+}
+
+model AuditLog {
+  id          String    @id @default(cuid())
+  userId      String?
+  user        User?     @relation(fields: [userId], references: [id])
+  action      String    // e.g. EVIDENCE_VERIFIED, SKILL_UPDATED, ROLE_CHANGED
+  entityType  String    // e.g. Evidence, StudentSkill, User
+  entityId    String
+  oldValues   String?   // JSON string
+  newValues   String?   // JSON string
+  ipAddress   String?
+  userAgent   String?
+  sha256Hash  String?   // Immutable tamper-evident chain
+  timestamp   DateTime  @default(now())
+}
+
+model SearchQuery {
+  id             String    @id @default(cuid())
+  userId         String?
+  user           User?     @relation(fields: [userId], references: [id])
+  queryText      String
+  parsedIntent   String?   // FIND_STUDENTS, FIND_TEAMS, SKILL_GAP_ANALYSIS
+  filters        String?   // JSON string
+  resultCount    Int       @default(0)
+  latencyMs      Float?
+  createdAt      DateTime  @default(now())
+}
+
+model LeaderboardSnapshot {
+  id           String    @id @default(cuid())
+  collegeId    String?
+  departmentId String?
+  domain       String    // e.g. AI & Machine Learning, Frontend Development
+  rankings     String    // JSON string: Serialized top students list with scores
+  snapshotDate DateTime  @default(now())
+}
+
+model SkillGapReport {
+  id             String    @id @default(cuid())
+  collegeId      String
+  departmentId   String
+  targetDomain   String
+  marketDemand   String    // JSON string: Target skills expected
+  actualCoverage String    // JSON string: Current verified skills distribution
+  gapPercentage  Float     // Missing %
+  suggestions    String    // JSON string: Curricular and training recommendations
+  generatedAt    DateTime  @default(now())
+}

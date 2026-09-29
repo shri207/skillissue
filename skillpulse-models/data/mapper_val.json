@@ -1,0 +1,2502 @@
+[
+  {
+    "query": "postgres",
+    "canonical_skill": "PostgreSQL",
+    "score": 0.95
+  },
+  {
+    "query": "torch",
+    "canonical_skill": "FastAPI",
+    "score": 0.09
+  },
+  {
+    "query": "automated test and deployment pipeline",
+    "canonical_skill": "CI/CD",
+    "score": 0.87
+  },
+  {
+    "query": "tailwindcss",
+    "canonical_skill": "FastAPI",
+    "score": 0.15
+  },
+  {
+    "query": "node runtime",
+    "canonical_skill": "Node.js",
+    "score": 0.93
+  },
+  {
+    "query": "react functional components",
+    "canonical_skill": "FastAPI",
+    "score": 0.25
+  },
+  {
+    "query": "github actions workflow",
+    "canonical_skill": "PyTorch",
+    "score": 0.03
+  },
+  {
+    "query": "nextjs static site generation",
+    "canonical_skill": "Next.js",
+    "score": 0.89
+  },
+  {
+    "query": "orchestrated microservices on kubernetes cluster",
+    "canonical_skill": "Kubernetes",
+    "score": 0.97
+  },
+  {
+    "query": "nodejs",
+    "canonical_skill": "Node.js",
+    "score": 0.9
+  },
+  {
+    "query": "continuous integration",
+    "canonical_skill": "PyTorch",
+    "score": 0.18
+  },
+  {
+    "query": "dockerfile creation",
+    "canonical_skill": "Kubernetes",
+    "score": 0.04
+  },
+  {
+    "query": "network security audit and ctf challenges",
+    "canonical_skill": "Cybersecurity",
+    "score": 0.92
+  },
+  {
+    "query": "owasp top 10 vulnerability assessment",
+    "canonical_skill": "Cybersecurity",
+    "score": 1.0
+  },
+  {
+    "query": "node runtime",
+    "canonical_skill": "Node.js",
+    "score": 1.0
+  },
+  {
+    "query": "react",
+    "canonical_skill": "React",
+    "score": 0.89
+  },
+  {
+    "query": "next.js",
+    "canonical_skill": "Next.js",
+    "score": 0.87
+  },
+  {
+    "query": "owasp top 10 vulnerability assessment",
+    "canonical_skill": "CI/CD",
+    "score": 0.13
+  },
+  {
+    "query": "k8s",
+    "canonical_skill": "CI/CD",
+    "score": 0.24
+  },
+  {
+    "query": "full-stack typescript codebase",
+    "canonical_skill": "PostgreSQL",
+    "score": 0.15
+  },
+  {
+    "query": "pytorch",
+    "canonical_skill": "React",
+    "score": 0.14
+  },
+  {
+    "query": "penetration testing",
+    "canonical_skill": "Cybersecurity",
+    "score": 0.87
+  },
+  {
+    "query": "fast-api",
+    "canonical_skill": "Kubernetes",
+    "score": 0.24
+  },
+  {
+    "query": "asynchronous event loop in nodejs",
+    "canonical_skill": "Node.js",
+    "score": 0.89
+  },
+  {
+    "query": "postgres schema design and triggers",
+    "canonical_skill": "PostgreSQL",
+    "score": 0.95
+  },
+  {
+    "query": "react.js",
+    "canonical_skill": "Next.js",
+    "score": 0.18
+  },
+  {
+    "query": "docker",
+    "canonical_skill": "Python",
+    "score": 0.04
+  },
+  {
+    "query": "tracked repo history",
+    "canonical_skill": "Git",
+    "score": 0.87
+  },
+  {
+    "query": "next app router",
+    "canonical_skill": "TypeScript",
+    "score": 0.14
+  },
+  {
+    "query": "stateful react app",
+    "canonical_skill": "Git",
+    "score": 0.14
+  },
+  {
+    "query": "ethical hacking",
+    "canonical_skill": "Cybersecurity",
+    "score": 0.92
+  },
+  {
+    "query": "python data processing",
+    "canonical_skill": "Python",
+    "score": 0.92
+  },
+  {
+    "query": "packaged app into docker container",
+    "canonical_skill": "PyTorch",
+    "score": 0.04
+  },
+  {
+    "query": "resolved merge conflicts using git",
+    "canonical_skill": "Git",
+    "score": 0.87
+  },
+  {
+    "query": "frontend SPA using react",
+    "canonical_skill": "React",
+    "score": 0.86
+  },
+  {
+    "query": "docker",
+    "canonical_skill": "PyTorch",
+    "score": 0.17
+  },
+  {
+    "query": "postgres",
+    "canonical_skill": "PyTorch",
+    "score": 0.17
+  },
+  {
+    "query": "helm charts and pods",
+    "canonical_skill": "Cybersecurity",
+    "score": 0.07
+  },
+  {
+    "query": "wrote python automation scripts",
+    "canonical_skill": "Python",
+    "score": 0.88
+  },
+  {
+    "query": "docker",
+    "canonical_skill": "Docker",
+    "score": 0.99
+  },
+  {
+    "query": "psql",
+    "canonical_skill": "PostgreSQL",
+    "score": 0.93
+  },
+  {
+    "query": "reactjs",
+    "canonical_skill": "React",
+    "score": 0.91
+  },
+  {
+    "query": "fastapi",
+    "canonical_skill": "FastAPI",
+    "score": 0.95
+  },
+  {
+    "query": "tailwind",
+    "canonical_skill": "Tailwind CSS",
+    "score": 0.86
+  },
+  {
+    "query": "kubernetes",
+    "canonical_skill": "CI/CD",
+    "score": 0.13
+  },
+  {
+    "query": "tailwindcss",
+    "canonical_skill": "Python",
+    "score": 0.02
+  },
+  {
+    "query": "ethical hacking",
+    "canonical_skill": "Cybersecurity",
+    "score": 0.97
+  },
+  {
+    "query": "automated test and deployment pipeline",
+    "canonical_skill": "TypeScript",
+    "score": 0.0
+  },
+  {
+    "query": "node",
+    "canonical_skill": "Node.js",
+    "score": 0.85
+  },
+  {
+    "query": "nextjs static site generation",
+    "canonical_skill": "Python",
+    "score": 0.05
+  },
+  {
+    "query": "penetration testing",
+    "canonical_skill": "Cybersecurity",
+    "score": 0.94
+  },
+  {
+    "query": "utility-first css",
+    "canonical_skill": "TypeScript",
+    "score": 0.18
+  },
+  {
+    "query": "asynchronous event loop in nodejs",
+    "canonical_skill": "Node.js",
+    "score": 0.9
+  },
+  {
+    "query": "gitlab ci yaml runner",
+    "canonical_skill": "CI/CD",
+    "score": 0.97
+  },
+  {
+    "query": "fine-tuned models in pytorch",
+    "canonical_skill": "PyTorch",
+    "score": 1.0
+  },
+  {
+    "query": "ethical hacking",
+    "canonical_skill": "Cybersecurity",
+    "score": 0.86
+  },
+  {
+    "query": "ts",
+    "canonical_skill": "TypeScript",
+    "score": 0.94
+  },
+  {
+    "query": "tracked repo history",
+    "canonical_skill": "Git",
+    "score": 0.92
+  },
+  {
+    "query": "acid compliance in postgres",
+    "canonical_skill": "PyTorch",
+    "score": 0.22
+  },
+  {
+    "query": "continuous integration",
+    "canonical_skill": "React",
+    "score": 0.02
+  },
+  {
+    "query": "ts",
+    "canonical_skill": "PyTorch",
+    "score": 0.06
+  },
+  {
+    "query": "orchestrated microservices on kubernetes cluster",
+    "canonical_skill": "Kubernetes",
+    "score": 0.88
+  },
+  {
+    "query": "torch tensors and autograd",
+    "canonical_skill": "Docker",
+    "score": 0.1
+  },
+  {
+    "query": "typed javascript",
+    "canonical_skill": "TypeScript",
+    "score": 0.95
+  },
+  {
+    "query": "github actions workflow",
+    "canonical_skill": "CI/CD",
+    "score": 0.94
+  },
+  {
+    "query": "scripting in python",
+    "canonical_skill": "FastAPI",
+    "score": 0.04
+  },
+  {
+    "query": "penetration testing",
+    "canonical_skill": "Cybersecurity",
+    "score": 0.91
+  },
+  {
+    "query": "asynchronous event loop in nodejs",
+    "canonical_skill": "Node.js",
+    "score": 0.96
+  },
+  {
+    "query": "nextjs static site generation",
+    "canonical_skill": "CI/CD",
+    "score": 0.01
+  },
+  {
+    "query": "styled components with tailwind classes",
+    "canonical_skill": "Tailwind CSS",
+    "score": 0.87
+  },
+  {
+    "query": "react functional components",
+    "canonical_skill": "Node.js",
+    "score": 0.22
+  },
+  {
+    "query": "git",
+    "canonical_skill": "Git",
+    "score": 0.94
+  },
+  {
+    "query": "github actions workflow",
+    "canonical_skill": "CI/CD",
+    "score": 0.9
+  },
+  {
+    "query": "strict typescript development",
+    "canonical_skill": "Kubernetes",
+    "score": 0.03
+  },
+  {
+    "query": "postgresql",
+    "canonical_skill": "PostgreSQL",
+    "score": 0.85
+  },
+  {
+    "query": "fast-api",
+    "canonical_skill": "FastAPI",
+    "score": 0.87
+  },
+  {
+    "query": "utility-first css",
+    "canonical_skill": "Tailwind CSS",
+    "score": 0.92
+  },
+  {
+    "query": "infosec",
+    "canonical_skill": "Cybersecurity",
+    "score": 0.97
+  },
+  {
+    "query": "docker-compose multi-container setup",
+    "canonical_skill": "Docker",
+    "score": 0.94
+  },
+  {
+    "query": "high-performance async python rest api with fastapi",
+    "canonical_skill": "TypeScript",
+    "score": 0.03
+  },
+  {
+    "query": "network security audit and ctf challenges",
+    "canonical_skill": "Tailwind CSS",
+    "score": 0.05
+  },
+  {
+    "query": "docker image optimization",
+    "canonical_skill": "Kubernetes",
+    "score": 0.05
+  },
+  {
+    "query": "github actions workflow",
+    "canonical_skill": "Python",
+    "score": 0.19
+  },
+  {
+    "query": "docker",
+    "canonical_skill": "Docker",
+    "score": 0.88
+  },
+  {
+    "query": "gitlab ci yaml runner",
+    "canonical_skill": "CI/CD",
+    "score": 0.94
+  },
+  {
+    "query": "python data processing",
+    "canonical_skill": "PyTorch",
+    "score": 0.19
+  },
+  {
+    "query": "git branching and merging",
+    "canonical_skill": "Git",
+    "score": 0.96
+  },
+  {
+    "query": "reactjs",
+    "canonical_skill": "TypeScript",
+    "score": 0.14
+  },
+  {
+    "query": "frontend SPA using react",
+    "canonical_skill": "Next.js",
+    "score": 0.2
+  },
+  {
+    "query": "containerization",
+    "canonical_skill": "React",
+    "score": 0.17
+  },
+  {
+    "query": "k8s",
+    "canonical_skill": "Kubernetes",
+    "score": 0.92
+  },
+  {
+    "query": "typescript interfaces and generics",
+    "canonical_skill": "Tailwind CSS",
+    "score": 0.14
+  },
+  {
+    "query": "strict typescript development",
+    "canonical_skill": "TypeScript",
+    "score": 0.98
+  },
+  {
+    "query": "pydantic request validation fastapi",
+    "canonical_skill": "FastAPI",
+    "score": 0.96
+  },
+  {
+    "query": "react",
+    "canonical_skill": "React",
+    "score": 1.0
+  },
+  {
+    "query": "tracked repo history",
+    "canonical_skill": "Git",
+    "score": 0.97
+  },
+  {
+    "query": "responsive design using tailwind css",
+    "canonical_skill": "Cybersecurity",
+    "score": 0.06
+  },
+  {
+    "query": "react",
+    "canonical_skill": "Docker",
+    "score": 0.12
+  },
+  {
+    "query": "pydantic request validation fastapi",
+    "canonical_skill": "Cybersecurity",
+    "score": 0.24
+  },
+  {
+    "query": "git",
+    "canonical_skill": "Git",
+    "score": 0.96
+  },
+  {
+    "query": "postgresql",
+    "canonical_skill": "Tailwind CSS",
+    "score": 0.24
+  },
+  {
+    "query": "continuous integration",
+    "canonical_skill": "TypeScript",
+    "score": 0.2
+  },
+  {
+    "query": "asynchronous event loop in nodejs",
+    "canonical_skill": "Node.js",
+    "score": 1.0
+  },
+  {
+    "query": "strict typescript development",
+    "canonical_skill": "TypeScript",
+    "score": 0.99
+  },
+  {
+    "query": "nodejs",
+    "canonical_skill": "Docker",
+    "score": 0.05
+  },
+  {
+    "query": "asynchronous event loop in nodejs",
+    "canonical_skill": "Node.js",
+    "score": 0.91
+  },
+  {
+    "query": "k8s",
+    "canonical_skill": "Git",
+    "score": 0.23
+  },
+  {
+    "query": "containerization",
+    "canonical_skill": "Tailwind CSS",
+    "score": 0.02
+  },
+  {
+    "query": "react functional components",
+    "canonical_skill": "Kubernetes",
+    "score": 0.08
+  },
+  {
+    "query": "postgres",
+    "canonical_skill": "PostgreSQL",
+    "score": 0.96
+  },
+  {
+    "query": "network security audit and ctf challenges",
+    "canonical_skill": "Next.js",
+    "score": 0.16
+  },
+  {
+    "query": "python data processing",
+    "canonical_skill": "PostgreSQL",
+    "score": 0.05
+  },
+  {
+    "query": "node runtime",
+    "canonical_skill": "Node.js",
+    "score": 0.87
+  },
+  {
+    "query": "fastapi",
+    "canonical_skill": "FastAPI",
+    "score": 0.92
+  },
+  {
+    "query": "node",
+    "canonical_skill": "Node.js",
+    "score": 0.95
+  },
+  {
+    "query": "nextjs",
+    "canonical_skill": "Python",
+    "score": 0.03
+  },
+  {
+    "query": "nextjs static site generation",
+    "canonical_skill": "Python",
+    "score": 0.03
+  },
+  {
+    "query": "postgresql",
+    "canonical_skill": "PostgreSQL",
+    "score": 0.93
+  },
+  {
+    "query": "network security audit and ctf challenges",
+    "canonical_skill": "Cybersecurity",
+    "score": 0.94
+  },
+  {
+    "query": "github actions workflow",
+    "canonical_skill": "CI/CD",
+    "score": 0.97
+  },
+  {
+    "query": "high-performance async python rest api with fastapi",
+    "canonical_skill": "FastAPI",
+    "score": 0.97
+  },
+  {
+    "query": "node",
+    "canonical_skill": "Node.js",
+    "score": 0.94
+  },
+  {
+    "query": "backend express server running on node.js",
+    "canonical_skill": "Node.js",
+    "score": 0.9
+  },
+  {
+    "query": "backend express server running on node.js",
+    "canonical_skill": "Node.js",
+    "score": 0.85
+  },
+  {
+    "query": "network security audit and ctf challenges",
+    "canonical_skill": "Cybersecurity",
+    "score": 0.98
+  },
+  {
+    "query": "penetration testing",
+    "canonical_skill": "PostgreSQL",
+    "score": 0.12
+  },
+  {
+    "query": "postgres query optimization",
+    "canonical_skill": "PostgreSQL",
+    "score": 0.88
+  },
+  {
+    "query": "infosec",
+    "canonical_skill": "Git",
+    "score": 0.14
+  },
+  {
+    "query": "relational database postgres",
+    "canonical_skill": "PostgreSQL",
+    "score": 0.98
+  },
+  {
+    "query": "typescript",
+    "canonical_skill": "TypeScript",
+    "score": 0.98
+  },
+  {
+    "query": "pytorch deep learning model",
+    "canonical_skill": "Git",
+    "score": 0.13
+  },
+  {
+    "query": "ts",
+    "canonical_skill": "Tailwind CSS",
+    "score": 0.02
+  },
+  {
+    "query": "postgres query optimization",
+    "canonical_skill": "Node.js",
+    "score": 0.05
+  },
+  {
+    "query": "react.js",
+    "canonical_skill": "React",
+    "score": 0.87
+  },
+  {
+    "query": "docker-compose multi-container setup",
+    "canonical_skill": "CI/CD",
+    "score": 0.0
+  },
+  {
+    "query": "next app router",
+    "canonical_skill": "PostgreSQL",
+    "score": 0.22
+  },
+  {
+    "query": "github pull requests",
+    "canonical_skill": "Git",
+    "score": 0.96
+  },
+  {
+    "query": "k8s",
+    "canonical_skill": "TypeScript",
+    "score": 0.19
+  },
+  {
+    "query": "stateful react app",
+    "canonical_skill": "Tailwind CSS",
+    "score": 0.13
+  },
+  {
+    "query": "python",
+    "canonical_skill": "Python",
+    "score": 0.99
+  },
+  {
+    "query": "helm charts and pods",
+    "canonical_skill": "Kubernetes",
+    "score": 0.88
+  },
+  {
+    "query": "postgres",
+    "canonical_skill": "PostgreSQL",
+    "score": 0.97
+  },
+  {
+    "query": "relational database postgres",
+    "canonical_skill": "PostgreSQL",
+    "score": 0.94
+  },
+  {
+    "query": "relational database postgres",
+    "canonical_skill": "PostgreSQL",
+    "score": 0.86
+  },
+  {
+    "query": "k8s",
+    "canonical_skill": "FastAPI",
+    "score": 0.23
+  },
+  {
+    "query": "torch tensors and autograd",
+    "canonical_skill": "PyTorch",
+    "score": 0.99
+  },
+  {
+    "query": "pytorch deep learning model",
+    "canonical_skill": "PyTorch",
+    "score": 0.9
+  },
+  {
+    "query": "fastapi",
+    "canonical_skill": "Kubernetes",
+    "score": 0.07
+  },
+  {
+    "query": "react.js",
+    "canonical_skill": "TypeScript",
+    "score": 0.09
+  },
+  {
+    "query": "react functional components",
+    "canonical_skill": "Next.js",
+    "score": 0.21
+  },
+  {
+    "query": "pgsql",
+    "canonical_skill": "PostgreSQL",
+    "score": 0.98
+  },
+  {
+    "query": "packaged app into docker container",
+    "canonical_skill": "Tailwind CSS",
+    "score": 0.13
+  },
+  {
+    "query": "owasp top 10 vulnerability assessment",
+    "canonical_skill": "CI/CD",
+    "score": 0.13
+  },
+  {
+    "query": "docker-compose multi-container setup",
+    "canonical_skill": "Python",
+    "score": 0.25
+  },
+  {
+    "query": "torch",
+    "canonical_skill": "Tailwind CSS",
+    "score": 0.08
+  },
+  {
+    "query": "responsive design using tailwind css",
+    "canonical_skill": "Python",
+    "score": 0.07
+  },
+  {
+    "query": "scripting in python",
+    "canonical_skill": "Python",
+    "score": 0.85
+  },
+  {
+    "query": "fastapi",
+    "canonical_skill": "FastAPI",
+    "score": 0.86
+  },
+  {
+    "query": "tracked repo history",
+    "canonical_skill": "TypeScript",
+    "score": 0.01
+  },
+  {
+    "query": "postgres schema design and triggers",
+    "canonical_skill": "PostgreSQL",
+    "score": 0.95
+  },
+  {
+    "query": "k8s",
+    "canonical_skill": "Node.js",
+    "score": 0.1
+  },
+  {
+    "query": "python 3",
+    "canonical_skill": "TypeScript",
+    "score": 0.05
+  },
+  {
+    "query": "network security audit and ctf challenges",
+    "canonical_skill": "Cybersecurity",
+    "score": 0.92
+  },
+  {
+    "query": "continuous deployment",
+    "canonical_skill": "CI/CD",
+    "score": 0.98
+  },
+  {
+    "query": "github pull requests",
+    "canonical_skill": "Python",
+    "score": 0.21
+  },
+  {
+    "query": "automated test and deployment pipeline",
+    "canonical_skill": "CI/CD",
+    "score": 0.94
+  },
+  {
+    "query": "docker",
+    "canonical_skill": "Next.js",
+    "score": 0.17
+  },
+  {
+    "query": "containerization",
+    "canonical_skill": "Kubernetes",
+    "score": 0.06
+  },
+  {
+    "query": "tailwindcss",
+    "canonical_skill": "Next.js",
+    "score": 0.19
+  },
+  {
+    "query": "relational database postgres",
+    "canonical_skill": "PostgreSQL",
+    "score": 0.92
+  },
+  {
+    "query": "dockerfile creation",
+    "canonical_skill": "Docker",
+    "score": 0.9
+  },
+  {
+    "query": "responsive design using tailwind css",
+    "canonical_skill": "Tailwind CSS",
+    "score": 0.94
+  },
+  {
+    "query": "k8s",
+    "canonical_skill": "Kubernetes",
+    "score": 0.92
+  },
+  {
+    "query": "infosec",
+    "canonical_skill": "Cybersecurity",
+    "score": 0.86
+  },
+  {
+    "query": "styled components with tailwind classes",
+    "canonical_skill": "Tailwind CSS",
+    "score": 0.99
+  },
+  {
+    "query": "frontend SPA using react",
+    "canonical_skill": "PyTorch",
+    "score": 0.07
+  },
+  {
+    "query": "styled components with tailwind classes",
+    "canonical_skill": "Kubernetes",
+    "score": 0.05
+  },
+  {
+    "query": "git",
+    "canonical_skill": "FastAPI",
+    "score": 0.18
+  },
+  {
+    "query": "backend express server running on node.js",
+    "canonical_skill": "Git",
+    "score": 0.06
+  },
+  {
+    "query": "fast-api",
+    "canonical_skill": "Docker",
+    "score": 0.07
+  },
+  {
+    "query": "typescript interfaces and generics",
+    "canonical_skill": "Cybersecurity",
+    "score": 0.05
+  },
+  {
+    "query": "torch tensors and autograd",
+    "canonical_skill": "PostgreSQL",
+    "score": 0.15
+  },
+  {
+    "query": "dockerfile creation",
+    "canonical_skill": "FastAPI",
+    "score": 0.1
+  },
+  {
+    "query": "server-side rendered nextjs",
+    "canonical_skill": "Next.js",
+    "score": 0.96
+  },
+  {
+    "query": "tailwindcss",
+    "canonical_skill": "Tailwind CSS",
+    "score": 0.97
+  },
+  {
+    "query": "github pull requests",
+    "canonical_skill": "Git",
+    "score": 0.85
+  },
+  {
+    "query": "gitlab ci yaml runner",
+    "canonical_skill": "PyTorch",
+    "score": 0.06
+  },
+  {
+    "query": "torch",
+    "canonical_skill": "Next.js",
+    "score": 0.02
+  },
+  {
+    "query": "kubernetes",
+    "canonical_skill": "Kubernetes",
+    "score": 0.85
+  },
+  {
+    "query": "postgres query optimization",
+    "canonical_skill": "PostgreSQL",
+    "score": 0.92
+  },
+  {
+    "query": "fast-api",
+    "canonical_skill": "Node.js",
+    "score": 0.14
+  },
+  {
+    "query": "nextjs",
+    "canonical_skill": "Tailwind CSS",
+    "score": 0.21
+  },
+  {
+    "query": "styled components with tailwind classes",
+    "canonical_skill": "Tailwind CSS",
+    "score": 0.87
+  },
+  {
+    "query": "nextjs",
+    "canonical_skill": "PostgreSQL",
+    "score": 0.17
+  },
+  {
+    "query": "owasp top 10 vulnerability assessment",
+    "canonical_skill": "Cybersecurity",
+    "score": 0.99
+  },
+  {
+    "query": "fine-tuned models in pytorch",
+    "canonical_skill": "PyTorch",
+    "score": 0.88
+  },
+  {
+    "query": "strict typescript development",
+    "canonical_skill": "TypeScript",
+    "score": 0.97
+  },
+  {
+    "query": "git",
+    "canonical_skill": "Git",
+    "score": 0.93
+  },
+  {
+    "query": "k8s",
+    "canonical_skill": "Python",
+    "score": 0.17
+  },
+  {
+    "query": "automated test and deployment pipeline",
+    "canonical_skill": "CI/CD",
+    "score": 0.92
+  },
+  {
+    "query": "github pull requests",
+    "canonical_skill": "Git",
+    "score": 0.99
+  },
+  {
+    "query": "node",
+    "canonical_skill": "Node.js",
+    "score": 0.86
+  },
+  {
+    "query": "fine-tuned models in pytorch",
+    "canonical_skill": "Node.js",
+    "score": 0.12
+  },
+  {
+    "query": "react hooks",
+    "canonical_skill": "Docker",
+    "score": 0.13
+  },
+  {
+    "query": "node",
+    "canonical_skill": "PostgreSQL",
+    "score": 0.23
+  },
+  {
+    "query": "git branching and merging",
+    "canonical_skill": "Git",
+    "score": 0.88
+  },
+  {
+    "query": "ethical hacking",
+    "canonical_skill": "Cybersecurity",
+    "score": 0.9
+  },
+  {
+    "query": "strict typescript development",
+    "canonical_skill": "PyTorch",
+    "score": 0.02
+  },
+  {
+    "query": "relational database postgres",
+    "canonical_skill": "Python",
+    "score": 0.05
+  },
+  {
+    "query": "ts",
+    "canonical_skill": "Cybersecurity",
+    "score": 0.05
+  },
+  {
+    "query": "postgres schema design and triggers",
+    "canonical_skill": "CI/CD",
+    "score": 0.06
+  },
+  {
+    "query": "react functional components",
+    "canonical_skill": "TypeScript",
+    "score": 0.15
+  },
+  {
+    "query": "torch",
+    "canonical_skill": "CI/CD",
+    "score": 0.0
+  },
+  {
+    "query": "docker image optimization",
+    "canonical_skill": "CI/CD",
+    "score": 0.19
+  },
+  {
+    "query": "dockerfile creation",
+    "canonical_skill": "CI/CD",
+    "score": 0.17
+  },
+  {
+    "query": "version control",
+    "canonical_skill": "Git",
+    "score": 0.87
+  },
+  {
+    "query": "fast-api",
+    "canonical_skill": "FastAPI",
+    "score": 0.93
+  },
+  {
+    "query": "github actions workflow",
+    "canonical_skill": "CI/CD",
+    "score": 0.91
+  },
+  {
+    "query": "git branching and merging",
+    "canonical_skill": "Tailwind CSS",
+    "score": 0.22
+  },
+  {
+    "query": "git branching and merging",
+    "canonical_skill": "Tailwind CSS",
+    "score": 0.06
+  },
+  {
+    "query": "tailwind",
+    "canonical_skill": "Tailwind CSS",
+    "score": 0.92
+  },
+  {
+    "query": "dockerfile creation",
+    "canonical_skill": "Docker",
+    "score": 0.89
+  },
+  {
+    "query": "pytorch deep learning model",
+    "canonical_skill": "PyTorch",
+    "score": 0.91
+  },
+  {
+    "query": "asynchronous event loop in nodejs",
+    "canonical_skill": "React",
+    "score": 0.19
+  },
+  {
+    "query": "dockerfile creation",
+    "canonical_skill": "Docker",
+    "score": 0.99
+  },
+  {
+    "query": "torch tensors and autograd",
+    "canonical_skill": "Git",
+    "score": 0.2
+  },
+  {
+    "query": "postgres query optimization",
+    "canonical_skill": "FastAPI",
+    "score": 0.18
+  },
+  {
+    "query": "node",
+    "canonical_skill": "TypeScript",
+    "score": 0.03
+  },
+  {
+    "query": "utility-first css",
+    "canonical_skill": "PyTorch",
+    "score": 0.11
+  },
+  {
+    "query": "ts",
+    "canonical_skill": "TypeScript",
+    "score": 0.88
+  },
+  {
+    "query": "node runtime",
+    "canonical_skill": "CI/CD",
+    "score": 0.12
+  },
+  {
+    "query": "high-performance async python rest api with fastapi",
+    "canonical_skill": "PostgreSQL",
+    "score": 0.09
+  },
+  {
+    "query": "git",
+    "canonical_skill": "Git",
+    "score": 0.93
+  },
+  {
+    "query": "next.js",
+    "canonical_skill": "CI/CD",
+    "score": 0.25
+  },
+  {
+    "query": "acid compliance in postgres",
+    "canonical_skill": "PyTorch",
+    "score": 0.16
+  },
+  {
+    "query": "penetration testing",
+    "canonical_skill": "PyTorch",
+    "score": 0.03
+  },
+  {
+    "query": "fastapi",
+    "canonical_skill": "Python",
+    "score": 0.21
+  },
+  {
+    "query": "node",
+    "canonical_skill": "Node.js",
+    "score": 0.99
+  },
+  {
+    "query": "node",
+    "canonical_skill": "Node.js",
+    "score": 0.95
+  },
+  {
+    "query": "kubectl deployments",
+    "canonical_skill": "Python",
+    "score": 0.21
+  },
+  {
+    "query": "postgres",
+    "canonical_skill": "CI/CD",
+    "score": 0.11
+  },
+  {
+    "query": "infosec",
+    "canonical_skill": "Next.js",
+    "score": 0.14
+  },
+  {
+    "query": "github actions workflow",
+    "canonical_skill": "CI/CD",
+    "score": 0.89
+  },
+  {
+    "query": "pydantic request validation fastapi",
+    "canonical_skill": "FastAPI",
+    "score": 0.99
+  },
+  {
+    "query": "automated test and deployment pipeline",
+    "canonical_skill": "Next.js",
+    "score": 0.12
+  },
+  {
+    "query": "fastapi",
+    "canonical_skill": "FastAPI",
+    "score": 0.95
+  },
+  {
+    "query": "react",
+    "canonical_skill": "React",
+    "score": 0.88
+  },
+  {
+    "query": "git",
+    "canonical_skill": "Git",
+    "score": 0.85
+  },
+  {
+    "query": "git",
+    "canonical_skill": "Git",
+    "score": 0.95
+  },
+  {
+    "query": "ts",
+    "canonical_skill": "Docker",
+    "score": 0.17
+  },
+  {
+    "query": "penetration testing",
+    "canonical_skill": "TypeScript",
+    "score": 0.13
+  },
+  {
+    "query": "stateful react app",
+    "canonical_skill": "React",
+    "score": 0.96
+  },
+  {
+    "query": "gitlab ci yaml runner",
+    "canonical_skill": "CI/CD",
+    "score": 0.97
+  },
+  {
+    "query": "resolved merge conflicts using git",
+    "canonical_skill": "Kubernetes",
+    "score": 0.08
+  },
+  {
+    "query": "tracked repo history",
+    "canonical_skill": "Git",
+    "score": 1.0
+  },
+  {
+    "query": "github actions workflow",
+    "canonical_skill": "CI/CD",
+    "score": 0.93
+  },
+  {
+    "query": "docker image optimization",
+    "canonical_skill": "PostgreSQL",
+    "score": 0.07
+  },
+  {
+    "query": "typescript",
+    "canonical_skill": "Python",
+    "score": 0.01
+  },
+  {
+    "query": "kubectl deployments",
+    "canonical_skill": "Kubernetes",
+    "score": 0.97
+  },
+  {
+    "query": "docker image optimization",
+    "canonical_skill": "PostgreSQL",
+    "score": 0.12
+  },
+  {
+    "query": "styled components with tailwind classes",
+    "canonical_skill": "Tailwind CSS",
+    "score": 1.0
+  },
+  {
+    "query": "docker image optimization",
+    "canonical_skill": "Tailwind CSS",
+    "score": 0.13
+  },
+  {
+    "query": "relational database postgres",
+    "canonical_skill": "Git",
+    "score": 0.09
+  },
+  {
+    "query": "kubectl deployments",
+    "canonical_skill": "Kubernetes",
+    "score": 0.96
+  },
+  {
+    "query": "owasp top 10 vulnerability assessment",
+    "canonical_skill": "Cybersecurity",
+    "score": 0.97
+  },
+  {
+    "query": "react virtual dom",
+    "canonical_skill": "Node.js",
+    "score": 0.14
+  },
+  {
+    "query": "typed javascript",
+    "canonical_skill": "TypeScript",
+    "score": 0.87
+  },
+  {
+    "query": "tracked repo history",
+    "canonical_skill": "CI/CD",
+    "score": 0.14
+  },
+  {
+    "query": "github actions workflow",
+    "canonical_skill": "Next.js",
+    "score": 0.23
+  },
+  {
+    "query": "containerization",
+    "canonical_skill": "Docker",
+    "score": 0.95
+  },
+  {
+    "query": "torch tensors and autograd",
+    "canonical_skill": "PyTorch",
+    "score": 0.87
+  },
+  {
+    "query": "nodejs",
+    "canonical_skill": "Node.js",
+    "score": 0.87
+  },
+  {
+    "query": "gitlab ci yaml runner",
+    "canonical_skill": "Node.js",
+    "score": 0.11
+  },
+  {
+    "query": "stateful react app",
+    "canonical_skill": "React",
+    "score": 0.94
+  },
+  {
+    "query": "ethical hacking",
+    "canonical_skill": "Docker",
+    "score": 0.2
+  },
+  {
+    "query": "asynchronous event loop in nodejs",
+    "canonical_skill": "Python",
+    "score": 0.12
+  },
+  {
+    "query": "kubernetes",
+    "canonical_skill": "Kubernetes",
+    "score": 0.87
+  },
+  {
+    "query": "high-performance async python rest api with fastapi",
+    "canonical_skill": "FastAPI",
+    "score": 0.97
+  },
+  {
+    "query": "penetration testing",
+    "canonical_skill": "Git",
+    "score": 0.03
+  },
+  {
+    "query": "kubectl deployments",
+    "canonical_skill": "Python",
+    "score": 0.24
+  },
+  {
+    "query": "asynchronous event loop in nodejs",
+    "canonical_skill": "Python",
+    "score": 0.05
+  },
+  {
+    "query": "fastapi",
+    "canonical_skill": "FastAPI",
+    "score": 0.87
+  },
+  {
+    "query": "typescript",
+    "canonical_skill": "TypeScript",
+    "score": 0.97
+  },
+  {
+    "query": "containerization",
+    "canonical_skill": "Node.js",
+    "score": 0.15
+  },
+  {
+    "query": "stateful react app",
+    "canonical_skill": "React",
+    "score": 0.93
+  },
+  {
+    "query": "react functional components",
+    "canonical_skill": "React",
+    "score": 0.95
+  },
+  {
+    "query": "torch",
+    "canonical_skill": "PyTorch",
+    "score": 0.95
+  },
+  {
+    "query": "nextjs static site generation",
+    "canonical_skill": "Next.js",
+    "score": 0.96
+  },
+  {
+    "query": "penetration testing",
+    "canonical_skill": "Cybersecurity",
+    "score": 0.99
+  },
+  {
+    "query": "psql",
+    "canonical_skill": "PostgreSQL",
+    "score": 0.94
+  },
+  {
+    "query": "nextjs",
+    "canonical_skill": "Next.js",
+    "score": 0.99
+  },
+  {
+    "query": "next app router",
+    "canonical_skill": "PostgreSQL",
+    "score": 0.05
+  },
+  {
+    "query": "infosec",
+    "canonical_skill": "Cybersecurity",
+    "score": 0.88
+  },
+  {
+    "query": "full-stack typescript codebase",
+    "canonical_skill": "Next.js",
+    "score": 0.02
+  },
+  {
+    "query": "responsive design using tailwind css",
+    "canonical_skill": "Tailwind CSS",
+    "score": 0.9
+  },
+  {
+    "query": "k8s",
+    "canonical_skill": "React",
+    "score": 0.18
+  },
+  {
+    "query": "fine-tuned models in pytorch",
+    "canonical_skill": "Cybersecurity",
+    "score": 0.12
+  },
+  {
+    "query": "torch",
+    "canonical_skill": "Kubernetes",
+    "score": 0.15
+  },
+  {
+    "query": "docker image optimization",
+    "canonical_skill": "Tailwind CSS",
+    "score": 0.11
+  },
+  {
+    "query": "nextjs server actions",
+    "canonical_skill": "Next.js",
+    "score": 0.86
+  },
+  {
+    "query": "pytorch",
+    "canonical_skill": "PyTorch",
+    "score": 0.88
+  },
+  {
+    "query": "react",
+    "canonical_skill": "React",
+    "score": 0.97
+  },
+  {
+    "query": "fast-api",
+    "canonical_skill": "FastAPI",
+    "score": 0.87
+  },
+  {
+    "query": "high-performance async python rest api with fastapi",
+    "canonical_skill": "FastAPI",
+    "score": 0.92
+  },
+  {
+    "query": "server-side rendered nextjs",
+    "canonical_skill": "Git",
+    "score": 0.07
+  },
+  {
+    "query": "nextjs",
+    "canonical_skill": "Next.js",
+    "score": 0.92
+  },
+  {
+    "query": "git",
+    "canonical_skill": "Tailwind CSS",
+    "score": 0.14
+  },
+  {
+    "query": "tailwind",
+    "canonical_skill": "Docker",
+    "score": 0.25
+  },
+  {
+    "query": "tailwindcss",
+    "canonical_skill": "CI/CD",
+    "score": 0.22
+  },
+  {
+    "query": "continuous integration",
+    "canonical_skill": "Cybersecurity",
+    "score": 0.23
+  },
+  {
+    "query": "next app router",
+    "canonical_skill": "Docker",
+    "score": 0.01
+  },
+  {
+    "query": "owasp top 10 vulnerability assessment",
+    "canonical_skill": "Python",
+    "score": 0.04
+  },
+  {
+    "query": "ts",
+    "canonical_skill": "TypeScript",
+    "score": 0.96
+  },
+  {
+    "query": "fine-tuned models in pytorch",
+    "canonical_skill": "PyTorch",
+    "score": 0.94
+  },
+  {
+    "query": "torch tensors and autograd",
+    "canonical_skill": "PyTorch",
+    "score": 0.87
+  },
+  {
+    "query": "node runtime",
+    "canonical_skill": "Node.js",
+    "score": 1.0
+  },
+  {
+    "query": "high-performance async python rest api with fastapi",
+    "canonical_skill": "FastAPI",
+    "score": 0.95
+  },
+  {
+    "query": "tracked repo history",
+    "canonical_skill": "Git",
+    "score": 0.94
+  },
+  {
+    "query": "nextjs",
+    "canonical_skill": "Next.js",
+    "score": 0.93
+  },
+  {
+    "query": "torch tensors and autograd",
+    "canonical_skill": "Node.js",
+    "score": 0.1
+  },
+  {
+    "query": "react",
+    "canonical_skill": "React",
+    "score": 0.86
+  },
+  {
+    "query": "react virtual dom",
+    "canonical_skill": "CI/CD",
+    "score": 0.1
+  },
+  {
+    "query": "containerization",
+    "canonical_skill": "Docker",
+    "score": 0.96
+  },
+  {
+    "query": "python data processing",
+    "canonical_skill": "PyTorch",
+    "score": 0.04
+  },
+  {
+    "query": "react functional components",
+    "canonical_skill": "Git",
+    "score": 0.12
+  },
+  {
+    "query": "utility-first css",
+    "canonical_skill": "CI/CD",
+    "score": 0.25
+  },
+  {
+    "query": "ts",
+    "canonical_skill": "TypeScript",
+    "score": 0.89
+  },
+  {
+    "query": "ethical hacking",
+    "canonical_skill": "Git",
+    "score": 0.0
+  },
+  {
+    "query": "network security audit and ctf challenges",
+    "canonical_skill": "CI/CD",
+    "score": 0.21
+  },
+  {
+    "query": "scripting in python",
+    "canonical_skill": "Python",
+    "score": 0.89
+  },
+  {
+    "query": "utility-first css",
+    "canonical_skill": "TypeScript",
+    "score": 0.08
+  },
+  {
+    "query": "kubectl deployments",
+    "canonical_skill": "PyTorch",
+    "score": 0.1
+  },
+  {
+    "query": "node runtime",
+    "canonical_skill": "CI/CD",
+    "score": 0.22
+  },
+  {
+    "query": "scripting in python",
+    "canonical_skill": "Python",
+    "score": 0.98
+  },
+  {
+    "query": "cpython interpreter",
+    "canonical_skill": "Python",
+    "score": 0.85
+  },
+  {
+    "query": "postgres query optimization",
+    "canonical_skill": "PostgreSQL",
+    "score": 0.95
+  },
+  {
+    "query": "react.js",
+    "canonical_skill": "React",
+    "score": 0.96
+  },
+  {
+    "query": "cpython interpreter",
+    "canonical_skill": "Python",
+    "score": 0.89
+  },
+  {
+    "query": "high-performance async python rest api with fastapi",
+    "canonical_skill": "Git",
+    "score": 0.13
+  },
+  {
+    "query": "github pull requests",
+    "canonical_skill": "FastAPI",
+    "score": 0.14
+  },
+  {
+    "query": "backend express server running on node.js",
+    "canonical_skill": "Docker",
+    "score": 0.15
+  },
+  {
+    "query": "owasp top 10 vulnerability assessment",
+    "canonical_skill": "Cybersecurity",
+    "score": 0.92
+  },
+  {
+    "query": "github pull requests",
+    "canonical_skill": "TypeScript",
+    "score": 0.09
+  },
+  {
+    "query": "nextjs server actions",
+    "canonical_skill": "Node.js",
+    "score": 0.01
+  },
+  {
+    "query": "py",
+    "canonical_skill": "PostgreSQL",
+    "score": 0.17
+  },
+  {
+    "query": "relational database postgres",
+    "canonical_skill": "PostgreSQL",
+    "score": 0.98
+  },
+  {
+    "query": "utility-first css",
+    "canonical_skill": "Tailwind CSS",
+    "score": 0.93
+  },
+  {
+    "query": "next app router",
+    "canonical_skill": "Next.js",
+    "score": 0.95
+  },
+  {
+    "query": "stateful react app",
+    "canonical_skill": "React",
+    "score": 0.94
+  },
+  {
+    "query": "acid compliance in postgres",
+    "canonical_skill": "PostgreSQL",
+    "score": 0.99
+  },
+  {
+    "query": "high-performance async python rest api with fastapi",
+    "canonical_skill": "FastAPI",
+    "score": 0.9
+  },
+  {
+    "query": "react",
+    "canonical_skill": "React",
+    "score": 0.96
+  },
+  {
+    "query": "tracked repo history",
+    "canonical_skill": "PostgreSQL",
+    "score": 0.23
+  },
+  {
+    "query": "infosec",
+    "canonical_skill": "Git",
+    "score": 0.24
+  },
+  {
+    "query": "kubernetes",
+    "canonical_skill": "Docker",
+    "score": 0.14
+  },
+  {
+    "query": "containerization",
+    "canonical_skill": "Docker",
+    "score": 0.94
+  },
+  {
+    "query": "k8s",
+    "canonical_skill": "Docker",
+    "score": 0.05
+  },
+  {
+    "query": "torch",
+    "canonical_skill": "PyTorch",
+    "score": 0.92
+  },
+  {
+    "query": "tracked repo history",
+    "canonical_skill": "React",
+    "score": 0.22
+  },
+  {
+    "query": "containerization",
+    "canonical_skill": "Docker",
+    "score": 0.92
+  },
+  {
+    "query": "gitlab ci yaml runner",
+    "canonical_skill": "CI/CD",
+    "score": 0.97
+  },
+  {
+    "query": "packaged app into docker container",
+    "canonical_skill": "Docker",
+    "score": 0.96
+  },
+  {
+    "query": "tailwindcss",
+    "canonical_skill": "PyTorch",
+    "score": 0.23
+  },
+  {
+    "query": "asynchronous event loop in nodejs",
+    "canonical_skill": "FastAPI",
+    "score": 0.1
+  },
+  {
+    "query": "orchestrated microservices on kubernetes cluster",
+    "canonical_skill": "Kubernetes",
+    "score": 0.87
+  },
+  {
+    "query": "nodejs",
+    "canonical_skill": "React",
+    "score": 0.05
+  },
+  {
+    "query": "python object-oriented code",
+    "canonical_skill": "CI/CD",
+    "score": 0.07
+  },
+  {
+    "query": "fine-tuned models in pytorch",
+    "canonical_skill": "Node.js",
+    "score": 0.08
+  },
+  {
+    "query": "kubectl deployments",
+    "canonical_skill": "Kubernetes",
+    "score": 0.95
+  },
+  {
+    "query": "pgsql",
+    "canonical_skill": "PostgreSQL",
+    "score": 0.97
+  },
+  {
+    "query": "pgsql",
+    "canonical_skill": "PostgreSQL",
+    "score": 1.0
+  },
+  {
+    "query": "pytorch neural networks",
+    "canonical_skill": "PyTorch",
+    "score": 0.87
+  },
+  {
+    "query": "next app router",
+    "canonical_skill": "Next.js",
+    "score": 0.9
+  },
+  {
+    "query": "kubectl deployments",
+    "canonical_skill": "TypeScript",
+    "score": 0.13
+  },
+  {
+    "query": "torch",
+    "canonical_skill": "PyTorch",
+    "score": 0.98
+  },
+  {
+    "query": "strict typescript development",
+    "canonical_skill": "Python",
+    "score": 0.07
+  },
+  {
+    "query": "k8s",
+    "canonical_skill": "Cybersecurity",
+    "score": 0.15
+  },
+  {
+    "query": "nodejs",
+    "canonical_skill": "Node.js",
+    "score": 0.85
+  },
+  {
+    "query": "typed javascript",
+    "canonical_skill": "Kubernetes",
+    "score": 0.13
+  },
+  {
+    "query": "cpython interpreter",
+    "canonical_skill": "PostgreSQL",
+    "score": 0.13
+  },
+  {
+    "query": "pytorch deep learning model",
+    "canonical_skill": "Python",
+    "score": 0.0
+  },
+  {
+    "query": "full-stack typescript codebase",
+    "canonical_skill": "Tailwind CSS",
+    "score": 0.1
+  },
+  {
+    "query": "responsive design using tailwind css",
+    "canonical_skill": "Node.js",
+    "score": 0.13
+  },
+  {
+    "query": "full-stack typescript codebase",
+    "canonical_skill": "Git",
+    "score": 0.11
+  },
+  {
+    "query": "high-performance async python rest api with fastapi",
+    "canonical_skill": "FastAPI",
+    "score": 0.91
+  },
+  {
+    "query": "git",
+    "canonical_skill": "Git",
+    "score": 0.85
+  },
+  {
+    "query": "continuous deployment",
+    "canonical_skill": "Docker",
+    "score": 0.23
+  },
+  {
+    "query": "continuous integration",
+    "canonical_skill": "PyTorch",
+    "score": 0.18
+  },
+  {
+    "query": "pytorch neural networks",
+    "canonical_skill": "CI/CD",
+    "score": 0.18
+  },
+  {
+    "query": "pytorch",
+    "canonical_skill": "React",
+    "score": 0.12
+  },
+  {
+    "query": "tailwind",
+    "canonical_skill": "Node.js",
+    "score": 0.06
+  },
+  {
+    "query": "postgres",
+    "canonical_skill": "PyTorch",
+    "score": 0.01
+  },
+  {
+    "query": "kubernetes",
+    "canonical_skill": "PostgreSQL",
+    "score": 0.05
+  },
+  {
+    "query": "dockerfile creation",
+    "canonical_skill": "Tailwind CSS",
+    "score": 0.21
+  },
+  {
+    "query": "docker",
+    "canonical_skill": "Python",
+    "score": 0.11
+  },
+  {
+    "query": "pgsql",
+    "canonical_skill": "PostgreSQL",
+    "score": 0.91
+  },
+  {
+    "query": "typed javascript",
+    "canonical_skill": "Cybersecurity",
+    "score": 0.07
+  },
+  {
+    "query": "pytorch",
+    "canonical_skill": "Docker",
+    "score": 0.2
+  },
+  {
+    "query": "fine-tuned models in pytorch",
+    "canonical_skill": "PyTorch",
+    "score": 0.9
+  },
+  {
+    "query": "nextjs",
+    "canonical_skill": "Next.js",
+    "score": 0.97
+  },
+  {
+    "query": "git branching and merging",
+    "canonical_skill": "FastAPI",
+    "score": 0.21
+  },
+  {
+    "query": "infosec",
+    "canonical_skill": "Cybersecurity",
+    "score": 0.88
+  },
+  {
+    "query": "automated test and deployment pipeline",
+    "canonical_skill": "Cybersecurity",
+    "score": 0.19
+  },
+  {
+    "query": "relational database postgres",
+    "canonical_skill": "React",
+    "score": 0.2
+  },
+  {
+    "query": "frontend SPA using react",
+    "canonical_skill": "FastAPI",
+    "score": 0.12
+  },
+  {
+    "query": "docker image optimization",
+    "canonical_skill": "Docker",
+    "score": 0.96
+  },
+  {
+    "query": "python 3",
+    "canonical_skill": "PostgreSQL",
+    "score": 0.05
+  },
+  {
+    "query": "infosec",
+    "canonical_skill": "Cybersecurity",
+    "score": 0.94
+  },
+  {
+    "query": "dockerfile creation",
+    "canonical_skill": "Tailwind CSS",
+    "score": 0.16
+  },
+  {
+    "query": "py",
+    "canonical_skill": "Python",
+    "score": 0.96
+  },
+  {
+    "query": "python 3",
+    "canonical_skill": "Python",
+    "score": 0.98
+  },
+  {
+    "query": "tracked repo history",
+    "canonical_skill": "Git",
+    "score": 0.92
+  },
+  {
+    "query": "k8s",
+    "canonical_skill": "Docker",
+    "score": 0.03
+  },
+  {
+    "query": "postgresql",
+    "canonical_skill": "FastAPI",
+    "score": 0.04
+  },
+  {
+    "query": "automated test and deployment pipeline",
+    "canonical_skill": "CI/CD",
+    "score": 0.86
+  },
+  {
+    "query": "react functional components",
+    "canonical_skill": "React",
+    "score": 0.85
+  },
+  {
+    "query": "node runtime",
+    "canonical_skill": "Tailwind CSS",
+    "score": 0.18
+  },
+  {
+    "query": "next app router",
+    "canonical_skill": "Next.js",
+    "score": 0.93
+  },
+  {
+    "query": "python 3",
+    "canonical_skill": "Python",
+    "score": 0.97
+  },
+  {
+    "query": "docker image optimization",
+    "canonical_skill": "PostgreSQL",
+    "score": 0.03
+  },
+  {
+    "query": "kubernetes",
+    "canonical_skill": "TypeScript",
+    "score": 0.11
+  },
+  {
+    "query": "helm charts and pods",
+    "canonical_skill": "Kubernetes",
+    "score": 0.87
+  },
+  {
+    "query": "docker-compose multi-container setup",
+    "canonical_skill": "Python",
+    "score": 0.24
+  },
+  {
+    "query": "node",
+    "canonical_skill": "Node.js",
+    "score": 1.0
+  },
+  {
+    "query": "scripting in python",
+    "canonical_skill": "Python",
+    "score": 0.94
+  },
+  {
+    "query": "react virtual dom",
+    "canonical_skill": "Tailwind CSS",
+    "score": 0.06
+  },
+  {
+    "query": "kubernetes",
+    "canonical_skill": "FastAPI",
+    "score": 0.22
+  },
+  {
+    "query": "network security audit and ctf challenges",
+    "canonical_skill": "PyTorch",
+    "score": 0.06
+  },
+  {
+    "query": "ethical hacking",
+    "canonical_skill": "Cybersecurity",
+    "score": 0.93
+  },
+  {
+    "query": "containerization",
+    "canonical_skill": "Docker",
+    "score": 0.98
+  },
+  {
+    "query": "network security audit and ctf challenges",
+    "canonical_skill": "Cybersecurity",
+    "score": 0.97
+  },
+  {
+    "query": "psql",
+    "canonical_skill": "PostgreSQL",
+    "score": 1.0
+  },
+  {
+    "query": "continuous integration",
+    "canonical_skill": "PostgreSQL",
+    "score": 0.05
+  },
+  {
+    "query": "torch tensors and autograd",
+    "canonical_skill": "PyTorch",
+    "score": 0.95
+  },
+  {
+    "query": "gitlab ci yaml runner",
+    "canonical_skill": "CI/CD",
+    "score": 0.99
+  },
+  {
+    "query": "python object-oriented code",
+    "canonical_skill": "Python",
+    "score": 0.92
+  },
+  {
+    "query": "automated test and deployment pipeline",
+    "canonical_skill": "CI/CD",
+    "score": 0.9
+  },
+  {
+    "query": "next app router",
+    "canonical_skill": "PyTorch",
+    "score": 0.18
+  },
+  {
+    "query": "torch",
+    "canonical_skill": "Git",
+    "score": 0.16
+  },
+  {
+    "query": "ethical hacking",
+    "canonical_skill": "PostgreSQL",
+    "score": 0.17
+  },
+  {
+    "query": "strict typescript development",
+    "canonical_skill": "Cybersecurity",
+    "score": 0.21
+  },
+  {
+    "query": "fine-tuned models in pytorch",
+    "canonical_skill": "React",
+    "score": 0.07
+  },
+  {
+    "query": "pytorch deep learning model",
+    "canonical_skill": "Kubernetes",
+    "score": 0.2
+  },
+  {
+    "query": "version control",
+    "canonical_skill": "Cybersecurity",
+    "score": 0.23
+  },
+  {
+    "query": "ts",
+    "canonical_skill": "TypeScript",
+    "score": 0.86
+  },
+  {
+    "query": "torch tensors and autograd",
+    "canonical_skill": "PyTorch",
+    "score": 0.99
+  },
+  {
+    "query": "react virtual dom",
+    "canonical_skill": "Python",
+    "score": 0.16
+  },
+  {
+    "query": "owasp top 10 vulnerability assessment",
+    "canonical_skill": "Next.js",
+    "score": 0.17
+  },
+  {
+    "query": "packaged app into docker container",
+    "canonical_skill": "Docker",
+    "score": 1.0
+  },
+  {
+    "query": "python object-oriented code",
+    "canonical_skill": "Python",
+    "score": 0.97
+  },
+  {
+    "query": "git",
+    "canonical_skill": "Git",
+    "score": 0.97
+  },
+  {
+    "query": "acid compliance in postgres",
+    "canonical_skill": "TypeScript",
+    "score": 0.13
+  },
+  {
+    "query": "dockerfile creation",
+    "canonical_skill": "Docker",
+    "score": 0.97
+  },
+  {
+    "query": "network security audit and ctf challenges",
+    "canonical_skill": "React",
+    "score": 0.13
+  },
+  {
+    "query": "pydantic request validation fastapi",
+    "canonical_skill": "FastAPI",
+    "score": 0.94
+  },
+  {
+    "query": "gitlab ci yaml runner",
+    "canonical_skill": "FastAPI",
+    "score": 0.04
+  },
+  {
+    "query": "continuous integration",
+    "canonical_skill": "FastAPI",
+    "score": 0.09
+  },
+  {
+    "query": "continuous deployment",
+    "canonical_skill": "TypeScript",
+    "score": 0.23
+  },
+  {
+    "query": "docker",
+    "canonical_skill": "Docker",
+    "score": 0.9
+  },
+  {
+    "query": "acid compliance in postgres",
+    "canonical_skill": "PostgreSQL",
+    "score": 0.97
+  },
+  {
+    "query": "tracked repo history",
+    "canonical_skill": "Git",
+    "score": 0.86
+  },
+  {
+    "query": "react",
+    "canonical_skill": "React",
+    "score": 0.95
+  },
+  {
+    "query": "node runtime",
+    "canonical_skill": "Cybersecurity",
+    "score": 0.15
+  },
+  {
+    "query": "full-stack typescript codebase",
+    "canonical_skill": "Docker",
+    "score": 0.1
+  },
+  {
+    "query": "react hooks",
+    "canonical_skill": "FastAPI",
+    "score": 0.16
+  },
+  {
+    "query": "responsive design using tailwind css",
+    "canonical_skill": "PostgreSQL",
+    "score": 0.12
+  },
+  {
+    "query": "react.js",
+    "canonical_skill": "Next.js",
+    "score": 0.02
+  },
+  {
+    "query": "continuous integration",
+    "canonical_skill": "PyTorch",
+    "score": 0.13
+  },
+  {
+    "query": "frontend SPA using react",
+    "canonical_skill": "TypeScript",
+    "score": 0.22
+  },
+  {
+    "query": "resolved merge conflicts using git",
+    "canonical_skill": "Git",
+    "score": 0.99
+  },
+  {
+    "query": "github actions workflow",
+    "canonical_skill": "Tailwind CSS",
+    "score": 0.17
+  },
+  {
+    "query": "fastapi",
+    "canonical_skill": "CI/CD",
+    "score": 0.09
+  },
+  {
+    "query": "version control",
+    "canonical_skill": "Git",
+    "score": 0.99
+  },
+  {
+    "query": "fastapi",
+    "canonical_skill": "Git",
+    "score": 0.13
+  },
+  {
+    "query": "tracked repo history",
+    "canonical_skill": "CI/CD",
+    "score": 0.03
+  },
+  {
+    "query": "automated test and deployment pipeline",
+    "canonical_skill": "CI/CD",
+    "score": 0.96
+  },
+  {
+    "query": "postgresql",
+    "canonical_skill": "Cybersecurity",
+    "score": 0.25
+  },
+  {
+    "query": "github pull requests",
+    "canonical_skill": "Node.js",
+    "score": 0.24
+  },
+  {
+    "query": "acid compliance in postgres",
+    "canonical_skill": "PostgreSQL",
+    "score": 0.89
+  },
+  {
+    "query": "python data processing",
+    "canonical_skill": "CI/CD",
+    "score": 0.03
+  },
+  {
+    "query": "typescript interfaces and generics",
+    "canonical_skill": "TypeScript",
+    "score": 0.88
+  },
+  {
+    "query": "backend express server running on node.js",
+    "canonical_skill": "Kubernetes",
+    "score": 0.11
+  },
+  {
+    "query": "kubernetes",
+    "canonical_skill": "Kubernetes",
+    "score": 0.91
+  },
+  {
+    "query": "node runtime",
+    "canonical_skill": "Node.js",
+    "score": 0.9
+  },
+  {
+    "query": "wrote python automation scripts",
+    "canonical_skill": "Kubernetes",
+    "score": 0.12
+  },
+  {
+    "query": "k8s",
+    "canonical_skill": "Tailwind CSS",
+    "score": 0.22
+  },
+  {
+    "query": "github pull requests",
+    "canonical_skill": "Python",
+    "score": 0.24
+  },
+  {
+    "query": "torch tensors and autograd",
+    "canonical_skill": "PyTorch",
+    "score": 0.89
+  },
+  {
+    "query": "typed javascript",
+    "canonical_skill": "TypeScript",
+    "score": 0.94
+  },
+  {
+    "query": "reactjs",
+    "canonical_skill": "React",
+    "score": 0.9
+  },
+  {
+    "query": "nextjs server actions",
+    "canonical_skill": "React",
+    "score": 0.22
+  },
+  {
+    "query": "infosec",
+    "canonical_skill": "Cybersecurity",
+    "score": 0.91
+  },
+  {
+    "query": "dockerfile creation",
+    "canonical_skill": "Docker",
+    "score": 0.85
+  },
+  {
+    "query": "styled components with tailwind classes",
+    "canonical_skill": "TypeScript",
+    "score": 0.1
+  },
+  {
+    "query": "version control",
+    "canonical_skill": "TypeScript",
+    "score": 0.22
+  },
+  {
+    "query": "kubernetes",
+    "canonical_skill": "Kubernetes",
+    "score": 0.87
+  },
+  {
+    "query": "github actions workflow",
+    "canonical_skill": "CI/CD",
+    "score": 0.93
+  },
+  {
+    "query": "infosec",
+    "canonical_skill": "Cybersecurity",
+    "score": 0.92
+  },
+  {
+    "query": "git branching and merging",
+    "canonical_skill": "Git",
+    "score": 0.99
+  },
+  {
+    "query": "python data processing",
+    "canonical_skill": "React",
+    "score": 0.23
+  }
+]
