@@ -3,9 +3,8 @@ import Navbar from "@/components/Navbar";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "SkillPulse | University Talent Intelligence Platform",
-  description:
-    "Multi-agent university talent intelligence platform powered by custom-trained offline NLP models on NVIDIA GTX 1650.",
+  title: "College LMS | Competency & Verification Portal",
+  description: "Simple, minimalist university LMS portal for student skill submissions and principal approvals.",
 };
 
 export default function RootLayout({
@@ -14,25 +13,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="dark">
-      <body className="min-h-screen bg-slate-950 text-slate-100 flex flex-col antialiased selection:bg-indigo-500 selection:text-white">
+    <html lang="en">
+      <body className="min-h-screen bg-zinc-50 text-zinc-900 flex flex-col font-sans antialiased selection:bg-black selection:text-white">
         <Navbar />
-        <main className="flex-1">{children}</main>
-        <footer className="border-t border-slate-800/80 bg-slate-950 py-8 text-center text-xs text-slate-500">
-          <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
-            <div className="flex items-center gap-2">
-              <span className="font-bold text-slate-400">SkillPulse</span>
-              <span>•</span>
-              <span>Multi-College University Talent Intelligence</span>
+        <main className="flex-1 max-w-6xl w-full mx-auto px-4 sm:px-6 py-8">{children}</main>
+        <footer className="border-t border-zinc-200 bg-white py-6 text-xs text-zinc-500">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-2">
+            <div>
+              <span className="font-semibold text-zinc-800">College LMS</span> — Student Competency & Institutional Verification
             </div>
-            <div className="flex items-center gap-3 text-slate-400">
-              <span>DistilBERT NER</span>
-              <span>•</span>
-              <span>MiniLM Mapper</span>
-              <span>•</span>
-              <span>Dual-Head QueryParser</span>
-              <span>•</span>
-              <span>GTX 1650</span>
+            <div className="text-zinc-400">
+              CEG Anna University & PSG Tech Portal
             </div>
           </div>
         </footer>
