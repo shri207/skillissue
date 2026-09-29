@@ -61,35 +61,32 @@ export async function POST(req: NextRequest) {
       },
       update: {
         provenanceScore: verification.provenance_score,
-        status: verification.verdict === "VERIFIED" ? "VERIFIED" : "PENDING_REVIEW",
+        status: "PENDING_REVIEW",
       },
       create: {
         studentId: user.studentProfile.id,
         skillId: skill.id,
-        proficiency: verification.suggested_level,
-        score: verification.provenance_score * 100,
-        status: verification.verdict === "VERIFIED" ? "VERIFIED" : "PENDING_REVIEW",
+        proficiency: verification.suggested_level || "INTERMEDIATE",
+        score: Math.round(verification.provenance_score * 100),
+        status: "PENDING_REVIEW",
         provenanceScore: verification.provenance_score,
       },
     });
 
-    // 5. Create Evidence Record
+    // 5. Create Evidence Record awaiting Principal Approval
     const evidence = await prisma.evidence.create({
       data: {
         studentSkillId: studentSkill.id,
         evidenceType,
         title,
-        description,
+        description: description || "Student submitted credential evidence",
         url,
         issuer,
         issueDate: issueDate ? new Date(issueDate) : null,
-        status: verification.verdict === "VERIFIED" ? "APPROVED" : "UNDER_REVIEW",
+        status: "UNDER_REVIEW",
         provenanceScore: verification.provenance_score,
         metadata: JSON.stringify(verification),
-        reviewNotes:
-          verification.verdict === "VERIFIED"
-            ? "Automated verification checks passed (valid URL, recognized issuer, canonical skill alignment)."
-            : `Flagged for manual review: ${verification.flagged_reasons.join(", ")}`,
+        reviewNotes: `AI Pre-Check: ${verification.verdict} (Confidence: ${Math.round(verification.confidence * 100)}%). Pending Principal / Dean verification review.`,
       },
     });
 

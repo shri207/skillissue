@@ -85,22 +85,69 @@ export default function HomePage() {
           GTX 1650. Transparent cryptographic evidence provenance for students, deans, and recruiters.
         </p>
 
-        {/* Action Buttons */}
+        {/* Primary Role Action Portals */}
         <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
           <Link
-            href="/search"
-            className="px-6 py-3 rounded-xl bg-gradient-to-r from-indigo-600 via-sky-600 to-indigo-700 hover:from-indigo-500 hover:to-sky-500 text-white font-semibold shadow-lg shadow-indigo-500/25 flex items-center gap-2 transition-all hover:scale-102"
+            href="/student"
+            className="px-6 py-3.5 rounded-xl bg-gradient-to-r from-cyan-600 via-blue-600 to-indigo-600 hover:from-cyan-500 hover:to-blue-500 text-white font-bold shadow-lg shadow-cyan-500/25 flex items-center gap-2 transition-all hover:scale-102"
           >
-            <Search className="w-4 h-4" />
-            Launch Explainable Search
+            <GraduationCap className="w-5 h-5 text-cyan-200" />
+            Enter Student Portal (Submit Evidence)
           </Link>
 
           <Link
-            href="/verification"
-            className="px-6 py-3 rounded-xl bg-slate-900/80 hover:bg-slate-800 text-slate-200 font-semibold border border-slate-700 flex items-center gap-2 transition-all hover:border-slate-600"
+            href="/principal"
+            className="px-6 py-3.5 rounded-xl bg-slate-900/90 hover:bg-slate-800 text-amber-300 font-bold border border-amber-500/40 hover:border-amber-400 flex items-center gap-2 transition-all hover:scale-102 shadow-lg shadow-amber-500/10"
           >
-            <ShieldCheck className="w-4 h-4 text-emerald-400" />
-            Verification Pipeline
+            <Building2 className="w-5 h-5 text-amber-400" />
+            Enter Principal Console (Approval Queue)
+          </Link>
+
+          <Link
+            href="/search"
+            className="px-5 py-3.5 rounded-xl bg-slate-900/60 hover:bg-slate-800 text-slate-300 font-medium border border-slate-800 flex items-center gap-2 transition-all hover:border-slate-700"
+          >
+            <Search className="w-4 h-4 text-slate-400" />
+            Talent Search
+          </Link>
+        </div>
+
+        {/* Two-Persona Workflow Callout */}
+        <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-4 max-w-4xl mx-auto text-left">
+          <Link
+            href="/student"
+            className="group p-5 rounded-2xl bg-gradient-to-br from-cyan-950/40 to-slate-900/60 border border-cyan-800/40 hover:border-cyan-500/60 transition shadow-lg relative overflow-hidden"
+          >
+            <div className="flex items-start justify-between">
+              <div className="p-2.5 rounded-xl bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 mb-3">
+                <GraduationCap className="w-6 h-6" />
+              </div>
+              <span className="text-xs text-cyan-400 flex items-center gap-1 font-semibold group-hover:translate-x-1 transition-transform">
+                Go to Portal <ArrowRight className="w-3.5 h-3.5" />
+              </span>
+            </div>
+            <h3 className="text-base font-bold text-white mb-1">Student Competency & Evidence Submission</h3>
+            <p className="text-xs text-slate-400 leading-relaxed">
+              Submit certificates, GitHub repos, and live projects. Run local AI pre-extraction to verify credentials and route to your College Principal.
+            </p>
+          </Link>
+
+          <Link
+            href="/principal"
+            className="group p-5 rounded-2xl bg-gradient-to-br from-amber-950/40 to-slate-900/60 border border-amber-800/40 hover:border-amber-500/60 transition shadow-lg relative overflow-hidden"
+          >
+            <div className="flex items-start justify-between">
+              <div className="p-2.5 rounded-xl bg-amber-500/10 text-amber-400 border border-amber-500/20 mb-3">
+                <Building2 className="w-6 h-6" />
+              </div>
+              <span className="text-xs text-amber-400 flex items-center gap-1 font-semibold group-hover:translate-x-1 transition-transform">
+                Go to Console <ArrowRight className="w-3.5 h-3.5" />
+              </span>
+            </div>
+            <h3 className="text-base font-bold text-white mb-1">Principal & Dean Verification Queue</h3>
+            <p className="text-xs text-slate-400 leading-relaxed">
+              Live review desk with AI provenance confidence checks. Approve or reject student evidence in 1-click with tamper-proof audit logging.
+            </p>
           </Link>
         </div>
 

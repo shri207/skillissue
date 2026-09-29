@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Sparkles, ShieldCheck, Search, Trophy, BarChart3, Cpu } from "lucide-react";
+import { Sparkles, ShieldCheck, Search, Trophy, BarChart3, Cpu, GraduationCap, Building2 } from "lucide-react";
 import { useEffect, useState } from "react";
 
 export default function Navbar() {
@@ -34,9 +34,9 @@ export default function Navbar() {
   }, []);
 
   const navItems = [
-    { name: "Overview", href: "/", icon: Sparkles },
+    { name: "Student View", href: "/student", icon: GraduationCap, badge: "Submit" },
+    { name: "Principal View", href: "/principal", icon: Building2, badge: "Review" },
     { name: "Talent Search", href: "/search", icon: Search },
-    { name: "Verification Queue", href: "/verification", icon: ShieldCheck },
     { name: "Leaderboard", href: "/leaderboard", icon: Trophy },
     { name: "Skill Gap Radar", href: "/skill-gap", icon: BarChart3 },
   ];
@@ -105,12 +105,22 @@ export default function Navbar() {
             <span className="text-slate-300 font-medium">{aiStatus}</span>
           </div>
 
-          <Link
-            href="/verification"
-            className="hidden sm:inline-flex items-center justify-center px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-gradient-to-r from-indigo-600 to-sky-600 hover:from-indigo-500 hover:to-sky-500 text-white shadow-md shadow-indigo-600/20 transition-all hover:scale-102"
-          >
-            Submit Evidence
-          </Link>
+          <div className="hidden sm:flex items-center gap-2">
+            <Link
+              href="/student"
+              className="inline-flex items-center justify-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white shadow-md shadow-cyan-600/20 transition-all hover:scale-102"
+            >
+              <GraduationCap className="w-3.5 h-3.5" />
+              Student View
+            </Link>
+            <Link
+              href="/principal"
+              className="inline-flex items-center justify-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-900 border border-slate-700 hover:border-amber-500/50 hover:bg-slate-800 text-amber-300 transition-all hover:scale-102"
+            >
+              <Building2 className="w-3.5 h-3.5 text-amber-400" />
+              Principal
+            </Link>
+          </div>
         </div>
       </div>
     </header>
